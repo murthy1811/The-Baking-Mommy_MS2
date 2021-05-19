@@ -62,3 +62,11 @@
         letter-spacing: 1px;
     }
 }
+
+
+/* ---------------------------------------------------------------------------hero image sliding */
+
+.carousel-item img {
+    object-fit: cover;
+    height: 700px;
+}
