@@ -32,7 +32,8 @@
 
 @media(max-width:576px) {
     .logo {
-        height: 75px;
+        height:100px;
+        width: 50px;
         background-position: left;
         background-repeat: no-repeat;
         background-size: contain;
