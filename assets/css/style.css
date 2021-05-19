@@ -32,8 +32,7 @@
 
 @media(max-width:576px) {
     .logo {
-        height:100px;
-        width: 50px;
+        height:110px;     
         background-position: left;
         background-repeat: no-repeat;
         background-size: contain;
@@ -46,7 +45,20 @@
     .navbar-expand-lg {
         float: none;
     }
+
+    .navbar-expand-sm{
+        padding-top: 30px;
+    }
     .navbar-collapse {
         width: 85vw;
+        padding-top: 40px;
+    }
+}
+
+
+@media only screen and (max-width: 1025px) and (min-width: 768px) {
+    .menuitem{
+        padding-top: 20px;
+        letter-spacing: 1px;
     }
 }
