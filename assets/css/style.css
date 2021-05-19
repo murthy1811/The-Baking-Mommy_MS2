@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Reggae+One&display=swap');
+
+/* ---------------------------------------------------------------------------header */
+
+.logo {
+    background: url("../images/logo.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-origin: content-box;
+    padding-top: 10px;
+    height: 150px;
+}
+
+.menuitem li {
+    margin: 15px;
+    display: inline-block;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ee37b7;
+}
+
+.navbar {
+    float: right;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Reggae One', cursive;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+@media(max-width:576px) {
+    .logo {
+        height: 75px;
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-origin: content-box;
+        padding-top: 10px;
+    }
+    .menuitem li {
+        margin: 0;
+    }
+    .navbar-expand-lg {
+        float: none;
+    }
+    .navbar-collapse {
+        width: 85vw;
+    }
+}
