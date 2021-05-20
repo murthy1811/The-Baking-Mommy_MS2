@@ -144,3 +144,20 @@
     font-weight: 200;
 }
 }
+
+/* ---------------------------------------------------------------------------cake information */
+
+.background {
+background-color: rgb(230, 217, 229);
+}
+
+.cakelist h4{
+    padding-top: 50px;
+    font-family: Reggae one, sans-serif;
+    text-align: center;
+}
+
+.listimages img {
+    padding: 20px;
+    float: center;
+}
