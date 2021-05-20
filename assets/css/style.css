@@ -2,6 +2,10 @@
 
 /* ---------------------------------------------------------------------------header */
 
+/* header{
+    background-color: rgb(238, 218, 232);
+} */
+
 .logo {
     background: url("../images/logo.png");
     background-position: left;
@@ -69,6 +73,35 @@
 .carousel-item img {
     object-fit: cover;
     height: 700px;
+}
+
+.carousel-caption{
+    font-family: 'Architects Daughter', sans-serif;    
+    text-align: center;
+}
+
+.pic1 h5{
+    font-size: 3rem;
+    color: aqua;
+    padding-bottom: 250px;
+}
+
+.pic2 h5{
+    font-size: 3rem;
+    color: rgb(238, 20, 20);
+    padding-bottom: 200px;
+}
+
+.pic3 h5{
+    font-size: 3rem;
+    color: rgb(160, 134, 97);
+    padding-bottom: 200px;
+}
+
+.pic4 h5{
+    font-size: 3rem;
+    color: rgb(236, 37, 37);
+    padding-bottom: 200px;
 }
 
 @media(max-width:576px) {
