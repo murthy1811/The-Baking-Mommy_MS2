@@ -88,19 +88,19 @@
 
 .pic2 h5{
     font-size: 3rem;
-    color: rgb(238, 20, 20);
+    color: rgb(150, 14, 241);
     padding-bottom: 200px;
 }
 
 .pic3 h5{
     font-size: 3rem;
-    color: rgb(160, 134, 97);
+    color: brown;
     padding-bottom: 200px;
 }
 
 .pic4 h5{
     font-size: 3rem;
-    color: rgb(236, 37, 37);
+    color: rgb(51, 49, 75);
     padding-bottom: 200px;
 }
 
@@ -108,10 +108,39 @@
     .carousel-item img{
         height: 300px;
     }
+  
 }
 
 @media only screen and (max-width: 1025px) and (min-width: 576px) {
     .carousel-item img{
         height: 450px;
     }
+
+    .pic1 h5{
+    font-size: 2rem;
+    color: aqua;
+    padding-bottom: 120px;
+    font-weight: 200;
+}
+
+.pic2 h5{
+    font-size: 2rem;
+    color: rgb(241, 14, 173);
+    padding-bottom: 50px;
+    font-weight: 200;
+}
+
+.pic3 h5{
+    font-size: 2rem;
+   color: brown;
+    padding-bottom: 50px;
+    font-weight: 200;
+}
+
+.pic4 h5{
+    font-size: 2rem;
+    color: rgb(51, 49, 75);
+    padding-bottom: 50px;
+    font-weight: 200;
+}
 }
