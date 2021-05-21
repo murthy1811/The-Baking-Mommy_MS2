@@ -1,3 +1,10 @@
+$(document).ready(function(){
+   $('.assortment').children().hide();
+})
+
 $("button").click(function() {
-	$(this).next().hide('slow');
+    
+ $('.assortment').children().slideToggle('slow');
+  
+    
 });
