@@ -159,5 +159,9 @@ background-color: rgb(230, 217, 229);
 
 .listimages img {
     padding: 20px;
-    float: center;
+    
+}
+
+.listimages{
+    text-align: center;
 }
