@@ -162,6 +162,18 @@ background-color: rgb(230, 217, 229);
     
 }
 
-.listimages{
-    text-align: center;
+button{
+    margin-top: 25px;
+    font-family:Reggae one, sans-serif ;
+    color: rgb(40, 240, 100);
+    text-transform: uppercase;
+    height: 50px;
+    width: 150px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    background-color: rgb(224, 20, 207);
+    border-radius: 5px;
+    position: absolute;
+    left: 40%;
+    border: chartreuse;
 }
