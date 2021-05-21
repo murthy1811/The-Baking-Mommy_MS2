@@ -155,25 +155,42 @@ background-color: rgb(230, 217, 229);
     padding-top: 50px;
     font-family: Reggae one, sans-serif;
     text-align: center;
-}
-
-.listimages img {
-    padding: 20px;
-    
+    color: #ee37b7;
+    text-transform: uppercase;
 }
 
 button{
     margin-top: 25px;
     font-family:Reggae one, sans-serif ;
-    color: rgb(40, 240, 100);
+    color: rgb(247, 35, 165);
     text-transform: uppercase;
     height: 50px;
     width: 150px;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     margin-bottom: 20px;
-    background-color: rgb(224, 20, 207);
     border-radius: 5px;
     position: absolute;
     left: 40%;
-    border: chartreuse;
+    border: rgb(247, 35, 165);
+   
+}
+
+.btnheight{
+    height: 100px;
+}
+
+.assortment ul{
+    padding-left: 275px;
+    font-family:'Architects Daughter', sans-serif; 
+    font-size: 25px;
+    color: blueviolet;
+}
+
+.listimages img {
+        object-fit:cover;
+        height: 400px;
+        width: 250px;
+        margin-left: 200px;
+        float: none;
+        border-radius: 15px;
 }
