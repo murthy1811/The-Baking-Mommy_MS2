@@ -165,29 +165,38 @@ button{
     color: rgb(247, 35, 165);
     text-transform: uppercase;
     height: 50px;
-    width: 150px;
+    display: block;
+    width: 40%;
     letter-spacing: 1.5px;
     margin-bottom: 20px;
     border-radius: 5px;
-    position: absolute;
-    left: 40%;
     border: rgb(247, 35, 165);
-   
+     
 }
 
 .btnheight{
     height: 100px;
+    text-align: center;
 }
 
-.assortment ul{
-    padding-left: 275px;
+.assortment ul li {
+    text-align: center;
+    display: block;
+    margin:0px auto;
     font-family:'Architects Daughter', sans-serif; 
     font-size: 25px;
     color: blueviolet;
+    
 }
 
+.assortment ul{
+    padding-left: 0px;
+    padding-top: 10px;
+}
 .assortment h5{
-    padding-left: 250px;
+    text-align: center;
+    display: block;
+    margin:0px auto;
     font-family:'Reggae one', sans-serif; 
     font-size: 25px;
     color: rgb(226, 43, 52);
@@ -196,8 +205,27 @@ button{
 .listimages img {
         object-fit:cover;
         height: 400px;
-        width: 230px;
-        margin-left: 200px;
+        width: 50%;
         float: none;
         border-radius: 15px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+@media(max-width:576px) {
+   .cakelist h4{
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+button{
+  width: auto;
+}
+
+.listimages img {
+        height: 250px;
+        width: 75%;
+}
+
 }
