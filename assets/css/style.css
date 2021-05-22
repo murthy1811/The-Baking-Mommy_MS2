@@ -186,6 +186,13 @@ button{
     color: blueviolet;
 }
 
+.assortment h5{
+    padding-left: 250px;
+    font-family:'Reggae one', sans-serif; 
+    font-size: 25px;
+    color: rgb(226, 43, 52);
+    text-transform: uppercase;
+}
 .listimages img {
         object-fit:cover;
         height: 400px;

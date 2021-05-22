@@ -1,10 +1,10 @@
 $(document).ready(function(){
-   $('.assortment').children().hide();
+   $('.assortment').parent().hide();
+   
 })
 
-$("button").click(function() {
+$(".hideit").click(function() {
     
- $('.assortment').children().slideToggle('slow');
-  
+$(this).parent().parent().next().slideToggle('slow');
     
 });
