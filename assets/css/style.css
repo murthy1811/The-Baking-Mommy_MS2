@@ -229,3 +229,22 @@ button{
 }
 
 }
+
+/* ---------------------------------------------------------------------------User Comments */
+
+.userquotes{
+    padding-top: 100px;
+  
+}
+
+.userquotes img{
+        object-fit: cover;           
+}
+
+.blockquote {
+   font-family: 'Architects Daughter', sans-serif;   
+    color: rgb(173, 70, 218);
+   }
+
+
+
