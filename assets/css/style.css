@@ -316,6 +316,29 @@ button{
 
 .select{
     display: inline-block;      
-    padding: 30px;
+     padding-left: 50px;
+     padding-top: 25px;
+     padding-bottom: 25px;
 }
 
+.select img{
+    border-radius: 10px;
+    border: solid #e98791;
+   
+}
+
+.select label{
+    padding-top: 25px;
+    padding-left: 50px;
+    font-family: 'Architects Daughter', sans-serif;
+    color: #ee37b7;
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+}
+
+
+.select input{
+    padding-top: 25px;
+    padding-left: 70px;
+}
