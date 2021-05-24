@@ -348,10 +348,26 @@ button{
     font-family:'Reggae One', sans-serif;
     padding-left: 50px;
     font-size: 20px;
+    padding-top: 50px;
 }
 
 div#map {
     min-height: 360px;
-   margin: 50px;
+    width: 300px;
+   margin-left: 50px;
    border-radius: 20px;
+   
+}
+
+.deliveryinfo p{
+    display: inline-block;
+    font-family: 'Architects Daughter', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #bd2130;
+}
+
+.deliveryinfo{
+ padding-bottom: 50px;
+   padding-top: 50px;
 }
