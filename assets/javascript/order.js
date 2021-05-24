@@ -19,14 +19,14 @@
                 lng: 11.9456557
             }];
 
-            locations.map(function (location, i) {
+          let markers =  locations.map(function (location, i) {
                 return new google.maps.Marker({
                     position: location,
                     label: labels[i % labels.length]
                 });
             });
 
-             new MarkerClusterer(map, markers, {
+            let markerCluster = new MarkerClusterer(map, markers, {
                 imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
             });
         }
