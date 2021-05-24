@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/4c17053e39.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
 
@@ -56,58 +57,60 @@
 
         <!--===================================================================Selection-->
 
-        <section>
-            <div class="row background">
+        <section class="background">
+            <div class="row">
                 <div class="col-12 col-md-8">
                     <div class="row">
                         <div class="col-12 col-md-4 select">
                             <div class="selectimage1">
-                                <img src="assets/images/selectpic1.jpg" alt="fruit cake select button" aria-hidden="true"
-                                    height="250px" width="250px">
+                                <img src="assets/images/selectpic1.jpg" alt="fruit cake select button"
+                                    aria-hidden="true" height="250px" width="250px">
                             </div>
-        
+
                             <div>
                                 <label for="fruit-cake-choice"> Select Fruit Cake</label>
-                                <input list="fruit-cake-type" id="fruit-cake-choice" name="fruit-cake-choice" type="text">
+                                <input list="fruit-cake-type" id="fruit-cake-choice" name="fruit-cake-choice"
+                                    type="text">
                                 <datalist id="fruit-cake-type">
                                     <!-- fruitcakelist(); -->
                                     <option value="Grape topping"></option>
                                     <option value="Oranges"></option>
                                     <option value="Strawberry"></option>
                                     <option value="Pineapple"></option>
-        
+
                                 </datalist>
                             </div>
                         </div>
-        
-        
+
+
                         <div class="select col-12 col-md-4">
                             <div class="selectimage2">
-                                <img src="assets/images/selectpic2.jpg" alt="cream cake select button" aria-hidden="true"
-                                    height="250px" width="250px">
+                                <img src="assets/images/selectpic2.jpg" alt="cream cake select button"
+                                    aria-hidden="true" height="250px" width="250px">
                             </div>
-        
+
                             <div>
                                 <label for="cream-cake-choice"> Select Cream Cake</label>
-                                <input list="cream-cake-type" id="cream-cake-choice" name="cream-cake-choice" type="text" />
+                                <input list="cream-cake-type" id="cream-cake-choice" name="cream-cake-choice"
+                                    type="text" />
                                 <datalist id="cream-cake-type">
                                     <!-- creamcakelist(); -->
                                     <option value="Vanilla"></option>
                                     <option value="Red velvet"></option>
                                     <option value="Butterscotch"></option>
                                     <option value="Chocoloate"></option>
-        
+
                                 </datalist>
                             </div>
                         </div>
-        
-        
+
+
                         <div class="select col-12 col-md-4">
                             <div class="selectimage3">
                                 <img src="assets/images/selectpic3.jpg" alt="theme select button" aria-hidden="true"
                                     height="250px" width="250px">
                             </div>
-        
+
                             <div>
                                 <label for="theme-choice"> Select Theme Cake</label>
                                 <input list="theme-type" id="theme-choice" name="theme-choice" type="text" required>
@@ -117,18 +120,25 @@
                                     <option value="Weddings"></option>
                                     <option value="Kid Themes"></option>
                                     <option value="Custom cakes"></option>
-        
+
                                 </datalist>
                             </div>
                         </div>
                     </div>
-        
-        
+
+
                 </div>
             </div>
 
-            <div class="row background displaymessage">
-                <p> Thank you for chosing the cake. Please fill out the form to the right. We will reach you and agree on what you want</p> 
+            <div class="row displaymessage">
+                <div class="col-12 col-md-8">
+                    <p> Thank you for chosing the cake. Please fill out the form to the right. We will reach you and
+                        agree on what you want</p>
+                </div>
+            </div>
+
+            <div class="row">
+            <div id="map" class="col-12 col-md-5"></div>
             </div>
         </section>
 
@@ -206,6 +216,12 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+
+   
+    <script
+        src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxD0P-gu-F6PEjeeRfjKp4exyx2TjYkkE&callback=initMap"></script>
     <script src="assets/javascript/order.js"></script>
 </body>
 
