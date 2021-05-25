@@ -39,3 +39,10 @@ document.querySelector("#ordernow").addEventListener('click', function(){
             });
         }
  
+function enablelist(tickthis){
+  let fruitcake = document.getElementById('#fruit-cake-choice');
+  fruitcake.disabled= tickthis.click?false:true;
+  if(!fruitcake.disabled){
+      fruitcake.focus();
+  }
+}

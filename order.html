@@ -62,16 +62,16 @@
                 <div class="col-12 col-md-8">
                     <div class="row">
                         <div class="col-12 col-md-4 select">
-                            <div class="selectimage1">
+                            <div class="selectimage1" id="tickthis" onclick="enablelist()">
                                 <img src="assets/images/selectpic1.jpg" alt="fruit cake select button"
-                                    aria-hidden="true" height="250px" width="250px">
+                                    aria-hidden="true" height="250px" width="250px" />
                             </div>
 
                             <div>
                                 <label for="fruit-cake-choice"> Select Fruit Cake</label>
-                                <input list="fruit-cake-type" id="fruit-cake-choice" name="fruit-cake-choice"
-                                    type="text">
-                                <datalist id="fruit-cake-type">
+                                <input list="fruit-cake-type" id="fruit-cake-choice" name="fruit-cake-choice" placeholder="select fruit cake"
+                                    type="text" disabled="disabled">
+                                <datalist id="fruit-cake-type" >
                                     <!-- fruitcakelist(); -->
                                     <option value="Grape topping"></option>
                                     <option value="Oranges"></option>
@@ -91,9 +91,9 @@
 
                             <div>
                                 <label for="cream-cake-choice"> Select Cream Cake</label>
-                                <input list="cream-cake-type" id="cream-cake-choice" name="cream-cake-choice"
+                                <input list="cream-cake-type" id="cream-cake-choice" name="cream-cake-choice" placeholder="select cream cake"
                                     type="text" />
-                                <datalist id="cream-cake-type">
+                                <datalist id="cream-cake-type" >
                                     <!-- creamcakelist(); -->
                                     <option value="Vanilla"></option>
                                     <option value="Red velvet"></option>
