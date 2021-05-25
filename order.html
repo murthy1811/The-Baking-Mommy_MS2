@@ -142,27 +142,53 @@
                     </div>
 
                 </div>
-
-                <div class="col-12 col-md-4">
+                
+                <div class="col-12 col-md-4 order ">
+                
                     <h4> Order Now and Pay at Home</h4>
-                    <form>
-                        <label>Cake Selected</label>
-                        <input type="text" name="cake" value="">
-
-                        <label>Name</label>
-                        <input type="text" name="name" value="your name">
-
-                        <label>Phone</label>
-                        <input type="number" name="number" value="">
-
-                        <label>Email</label>
-                        <input type="email" name="email" value="your email">
-
-                        <label>Address</label>
-                        <input type="text" name="address" value="your address">
+                
+                    <form action="https://formdump.codeinstitute.net" method="post">
+                
+                        <div class="small-screen-form">
+                            <label>Cake Selected</label>
+                            <input type="text" name="cake" value="">
+                
+                            <label>Name</label>
+                            <input type="text" name="name" value="your name">
+                
+                            <label>Phone</label>
+                            <input type="number" name="number" value="">
+                
+                            <label>Email</label>
+                            <input type="email" name="email" value="your email">
+                
+                            <label>Address</label>
+                            <input type="text" name="address" value="your address">
+                        </div>
+                        <div class="aligntop">
+                            <div>
+                                <div class="d-sm-block d-none">
+                                    <label for="notes"> Additional Notes to us : </label>
+                                    <textarea id="notes" rows="10" cols="40"
+                                        placeholder="Any specific requests, Please write. "></textarea>
+                                </div>
+                
+                                <div class="d-sm-none d-block">
+                                    <label for="notes2"> Additional Notes to us : </label>
+                                    <br>
+                                    <textarea id="notes2" rows="10" cols="31"
+                                        placeholder="Any specific requests, Please write. "></textarea>
+                                </div>
+                            </div>
+                            <div>
+                                <button type="submit" id="registerbutton">Order now</button>
+                            </div>
+                        </div>
                     </form>
+                
+                
                 </div>
-            </div>
+                </div>
 
 
 

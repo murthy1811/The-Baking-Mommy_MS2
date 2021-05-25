@@ -310,9 +310,9 @@ button{
 
   
 
-  /* ---------------------------------------------------------------------------ORDER PAGE */
+  /* -----------------------------------------------------------------------------------------ORDER PAGE */
 
-  /* ---------------------------------------------------------------------------Select images */
+  /* --------------------------------------------------------------Select images, map */
 
 .select{
     display: inline-block;      
@@ -369,5 +369,23 @@ div#map {
 
 .deliveryinfo{
  padding-bottom: 50px;
-   padding-top: 50px;
+ padding-top: 50px;
+}
+
+/* --------------------------------------------------------------Select images, map */
+
+.order{
+    background-image: url("../images/formpic1.jpg");
+    background-size: cover;
+}
+
+.order h4{
+    padding-top: 25px;
+    font-family:'Reggae One', sans-serif;
+    text-align: center;
+}
+
+.order form{
+    padding-top: 25px;
+    font-family: 'Reggae One', sans-serif;
 }
