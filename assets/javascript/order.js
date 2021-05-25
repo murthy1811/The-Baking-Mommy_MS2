@@ -1,4 +1,12 @@
-             function initMap() {
+   
+   
+
+document.querySelector("#ordernow").addEventListener('click', function(){
+  Swal.fire("Thank you for the Order", "We will reach you soon to confirm everything!", "success");
+});
+ 
+
+    function initMap() {
             var map = new google.maps.Map(document.getElementById("map"), {
                 zoom: 13,
                 center: {
@@ -30,4 +38,4 @@
                 imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
             });
         }
-   
+ 
