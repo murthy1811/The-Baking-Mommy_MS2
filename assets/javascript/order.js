@@ -58,7 +58,7 @@ function sendMail(contactForm){
     .then(
         function(response){
             console.log("SUCCESS", response);
-            document.getElementById("contact-form").reset();
+            document.getElementById("orderform").reset();
                    },
         function(error){
             console.log("FAILED", error);
