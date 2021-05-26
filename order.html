@@ -11,6 +11,13 @@
 
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_8335tq4GpTKmQFD8Dggwe");
+        })();
+    </script>
 
     <title>The Baking Mommy</title>
 </head>
@@ -153,7 +160,7 @@
                 
                     <h4> Order Now and Pay at Home</h4>
                 
-                    <form action="" method="POST">
+                    <form onsubmit="return sendMail(this);">
                 
                         <div class="small-screen-form">
                             <label>Cake Selected</label>
@@ -166,7 +173,7 @@
                             <input type="number" name="number" placeholder="123456" required>
                 
                             <label>Email</label>
-                            <input type="email" name="email" placeholder="Your Email" required>
+                            <input type="email" name="emailaddress" placeholder="Your Email" required>
                 
                             <label>Address</label>
                             <input type="text" name="address" placeholder="Your Address" required>
@@ -175,14 +182,14 @@
                             <div>
                                 <div class="d-sm-block d-none">
                                     <label for="notes"> Additional Notes to us : </label>
-                                    <textarea id="notes" rows="10" cols="40"
+                                    <textarea name="message" id="notes" rows="10" cols="40"
                                         placeholder="Any specific requests, Please write. "></textarea>
                                 </div>
                 
                                 <div class="d-sm-none d-block">
                                     <label for="notes2"> Additional Notes to us : </label>
                                     <br>
-                                    <textarea id="notes2" rows="10" cols="31"
+                                    <textarea name="message2" id="notes2" rows="10" cols="31"
                                         placeholder="Any specific requests, Please write. "></textarea>
                                 </div>
                             </div>

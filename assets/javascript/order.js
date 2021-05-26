@@ -39,10 +39,43 @@ document.querySelector("#ordernow").addEventListener('click', function(){
             });
         }
  
-function enablelist(tickthis){
-  let fruitcake = document.getElementById('#fruit-cake-choice');
-  fruitcake.disabled= tickthis.click?false:true;
-  if(!fruitcake.disabled){
-      fruitcake.focus();
-  }
+
+/* ---------------------------------------------------------------------emailjs for order form */
+
+
+console.log("hello");
+function sendMail(contactForm){
+    emailjs.send("service_xkqr1dk","template_m0virhs", {
+        "from_name": contactForm.name.value,
+        "from_phone": contactForm.number.value,         
+        "cake": contactForm.cake.value,      
+        "message": contactForm.message.value,
+        "message2": contactForm.message2.value,
+        "address": contactForm.address.value,
+        "reply_to": contactForm.emailaddress.value
+        
+    })
+    .then(
+        function(response){
+            console.log("SUCCESS", response);
+            document.getElementById("contact-form").reset();
+                   },
+        function(error){
+            console.log("FAILED", error);
+        }
+    );
+    
+    return false;
 }
+
+
+
+
+// function enablelist(tickthis){
+//   let fruitcake = document.getElementById('#fruit-cake-choice');
+//   fruitcake.disabled= tickthis.click?false:true;
+//   if(!fruitcake.disabled){
+//       fruitcake.focus();
+//   }
+// }
+
