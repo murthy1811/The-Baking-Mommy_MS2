@@ -315,10 +315,10 @@ button{
   /* --------------------------------------------------------------Select images, map */
 
 .select{
-    display: inline-block;      
-     padding-left: 50px;
+    display: inline-block;    
      padding-top: 25px;
      padding-bottom: 25px;
+     text-align: center;
 }
 
 .select img{
@@ -329,7 +329,6 @@ button{
 
 .select label{
     padding-top: 25px;
-    padding-left: 50px;
     font-family: 'Architects Daughter', sans-serif;
     color: #ee37b7;
     font-size: 18px;
@@ -340,13 +339,11 @@ button{
 
 .select input{
     padding-top: 25px;
-    padding-left: 70px;
 }
 
 .displaymessage p{
     text-align: center;
     font-family:'Reggae One', sans-serif;
-    padding-left: 50px;
     font-size: 20px;
     padding-top: 50px;
 }
@@ -375,7 +372,8 @@ div#map {
 }
 
 @media(max-width:576px) {
-    
+
+  
 div#map {
    min-height: 250px;
    width: 120px;
@@ -384,10 +382,11 @@ div#map {
    
 }
 .displaymessage p{
+    text-align: center;
     padding-left: 75px;
     font-size: 20px;
     padding-top: 20px;
-    width: 250px;
+    width: 300px;
 }
 
 .deliveryinfo p{
@@ -395,7 +394,21 @@ div#map {
 }
 }
 
-/* --------------------------------------------------------------order form */
+@media only screen and (max-width: 1200px) and (min-width: 576px) {
+
+.select img{
+    border-radius: 10px;
+    border: solid #e98791;
+    height: 200px;
+    width: 200px;
+   
+}
+
+.displaymessage p{
+    margin: 0px 50px 0px 50px;
+}
+}
+/* ---------------------------------------------------------------------order form */
 
 .order{
     background-image: url("../images/formpic1.jpg");
@@ -502,4 +515,18 @@ div#map {
     #ordernow {
         margin-bottom: 20px;
     }
+
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 576px) {
+
+    .small-screen-form input {
+        margin-right: 175px;
+    }
+
+    .aligntop textarea {
+        margin-right: 175px;
+    }
+
+   
 }
