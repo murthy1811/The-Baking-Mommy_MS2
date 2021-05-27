@@ -1,10 +1,35 @@
-   
-   
+
+/* ---------------------------------------------------------------------Sweet alert & enabling order now button*/
+
+$('#ordernow').prop('disabled', true);
+
+let toValidate = jQuery('#name, #number, #emailaddress, #address'),
+    valid = false;
+toValidate.keyup(function () {
+    if (jQuery(this).val().length > 0) {
+        jQuery(this).data('valid', true);
+    } else {
+        jQuery(this).data('valid', false);
+    }
+    toValidate.each(function () {
+        if (jQuery(this).data('valid') == true) {
+            valid = true;
+        } else {
+            valid = false;
+        }
+    });
+    if (valid === true) {
+        jQuery("#ordernow").prop('disabled', false);
+    } else {
+        jQuery("#ordernow").prop('disabled', true);
+    }
+});
 
 document.querySelector("#ordernow").addEventListener('click', function(){
   Swal.fire("Thank you for the Order", "We will reach you soon to confirm everything!", "success");
 });
  
+/* ---------------------------------------------------------------------google maps API */
 
     function initMap() {
             var map = new google.maps.Map(document.getElementById("map"), {
@@ -40,10 +65,10 @@ document.querySelector("#ordernow").addEventListener('click', function(){
         }
  
 
-/* ---------------------------------------------------------------------emailjs for order form */
+/* --------------------------------------------------------------------------------emailjs for order form */
 
 
-console.log("hello");
+
 function sendMail(contactForm){
     emailjs.send("service_xkqr1dk","template_m0virhs", {
         "from_name": contactForm.name.value,
@@ -69,7 +94,7 @@ function sendMail(contactForm){
 }
 
 
-
+/* --------------------------------------------------------------------------------JS for selecting cake */
 
 // function enablelist(tickthis){
 //   let fruitcake = document.getElementById('#fruit-cake-choice');
