@@ -1,34 +1,4 @@
 
-/* ---------------------------------------------------------------------Sweet alert & enabling order now button*/
-
-$('#ordernow').prop('disabled', true);
-
-let toValidate = jQuery('#name, #number, #emailaddress, #address'),
-    valid = false;
-toValidate.keyup(function () {
-    if (jQuery(this).val().length > 0) {
-        jQuery(this).data('valid', true);
-    } else {
-        jQuery(this).data('valid', false);
-    }
-    toValidate.each(function () {
-        if (jQuery(this).data('valid') == true) {
-            valid = true;
-        } else {
-            valid = false;
-        }
-    });
-    if (valid === true) {
-        jQuery("#ordernow").prop('disabled', false);
-    } else {
-        jQuery("#ordernow").prop('disabled', true);
-    }
-});
-
-document.querySelector("#ordernow").addEventListener('click', function(){
-  Swal.fire("Thank you for the Order", "We will reach you soon to confirm everything!", "success");
-});
- 
 /* ---------------------------------------------------------------------google maps API */
 
     function initMap() {
@@ -67,7 +37,30 @@ document.querySelector("#ordernow").addEventListener('click', function(){
 
 /* --------------------------------------------------------------------------------emailjs for order form */
 
+$('#ordernow').prop('disabled', true);
 
+let toValidate = jQuery('#name, #number, #emailaddress, #address'),
+    valid = false;
+toValidate.change(function () {
+    if (jQuery(this).val().length > 0) {
+        jQuery(this).data('valid', true);
+    } else {
+        jQuery(this).data('valid', false);
+    }
+    toValidate.each(function () {
+        if (jQuery(this).data('valid') == true) {
+            valid = true;
+        } else {
+            valid = false;
+        }
+    });
+    if (valid === true) {
+        jQuery("#ordernow").prop('disabled', false);
+    } else {
+        jQuery("#ordernow").prop('disabled', true);
+    }
+    
+});
 
 function sendMail(contactForm){
     emailjs.send("service_xkqr1dk","template_m0virhs", {
@@ -84,6 +77,8 @@ function sendMail(contactForm){
         function(response){
             console.log("SUCCESS", response);
             document.getElementById("orderform").reset();
+            let disable= document.getElementById("ordernow");
+            disable.disabled=true;
                    },
         function(error){
             console.log("FAILED", error);
@@ -92,6 +87,16 @@ function sendMail(contactForm){
     
     return false;
 }
+
+/* ---------------------------------------------------------------------Sweet alert & enabling order now button*/
+
+document.querySelector("#ordernow").addEventListener('click', function(){
+  Swal.fire("Thank you for the Order", "We will reach you soon to confirm everything!", "success");
+});
+
+
+
+
 
 
 /* --------------------------------------------------------------------------------JS for selecting cake */
