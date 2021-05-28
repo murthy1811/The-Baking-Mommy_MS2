@@ -77,7 +77,7 @@
                             <div>
                                 <label for="fruit-cake-choice"> Select Fruit Cake</label>
                                 <input list="fruit-cake-type" id="fruit-cake-choice" name="fruit-cake-choice" placeholder="select fruit cake"
-                                    type="text" disabled="disabled">
+                                    type="text" >
                                 <datalist id="fruit-cake-type" >
                                     <!-- fruitcakelist(); -->
                                     <option value="Grape topping"></option>
@@ -120,7 +120,7 @@
 
                             <div>
                                 <label for="theme-choice"> Select Theme Cake</label>
-                                <input list="theme-type" id="theme-choice" name="theme-choice" type="text" required>
+                                <input list="theme-type" id="theme-choice" name="theme-choice" placeholder="select theme" type="text" required>
                                 <datalist id="theme-type">
                                     <!-- themelist(); -->
                                     <option value="Birthdays"></option>
@@ -163,19 +163,19 @@
                     <form onsubmit="return sendMail(this);" autocomplete="off" id="orderform">
                 
                         <div class="small-screen-form">
-                            <label>Cake Selected</label>
-                            <input type="text" name="cake" required >
+                            <label for="cake">Cake Selected</label>
+                            <input type="text" name="cake" id="cake" required >
                 
-                            <label>Name</label>
+                            <label for="name">Name</label>
                             <input type="text" name="name" id="name" placeholder="Your Name" required>
                 
-                            <label>Phone</label>
+                            <label for="number" >Phone</label>
                             <input type="number" name="number" id="number" placeholder="123456" required>
                 
-                            <label>Email</label>
-                            <input type="emailaddress" name="emailaddress" id="emailaddress" placeholder="Your Email" required>
+                            <label for="emailaddress" >Email</label>
+                            <input type="email" name="emailaddress" id="emailaddress" placeholder="Your Email" required>
                 
-                            <label>Address</label>
+                            <label for="address">Address</label>
                             <input type="text" name="address" id="address" placeholder="Your Address" required>
                         </div>
                         <div class="aligntop">

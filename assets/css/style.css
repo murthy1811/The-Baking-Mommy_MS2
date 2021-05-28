@@ -346,6 +346,7 @@ button{
     font-family:'Reggae One', sans-serif;
     font-size: 20px;
     padding-top: 50px;
+    margin: 0px 50px 0px 50px ;
 }
 
 
@@ -387,6 +388,7 @@ div#map {
     font-size: 20px;
     padding-top: 20px;
     width: 300px;
+    
 }
 
 .deliveryinfo p{
@@ -527,6 +529,19 @@ div#map {
     .aligntop textarea {
         margin-right: 175px;
     }
+
+    .small-screen-form label {
+        float: left;
+        padding-left: 0;
+        margin-left: 0;
+        
+    }
+    .aligntop label {
+        float: left;
+        padding-left: 0;
+        margin-left: 0;
+    }
+} 
 
    
 }

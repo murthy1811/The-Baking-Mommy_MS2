@@ -63,6 +63,9 @@ toValidate.change(function () {
 });
 
 function sendMail(contactForm){
+
+    Swal.fire("Thank you for the Order", "We will reach you soon to confirm everything!", "success");
+
     emailjs.send("service_xkqr1dk","template_m0virhs", {
         "from_name": contactForm.name.value,
         "from_phone": contactForm.number.value,         
@@ -77,12 +80,13 @@ function sendMail(contactForm){
         function(response){
             console.log("SUCCESS", response);
             document.getElementById("orderform").reset();
-            let disable= document.getElementById("ordernow");
-            disable.disabled=true;
+            // let disable= document.getElementById("ordernow");
+            // disable.disabled=true;
                    },
         function(error){
             console.log("FAILED", error);
-        }
+        },
+        
     );
     
     return false;
@@ -90,9 +94,9 @@ function sendMail(contactForm){
 
 /* ---------------------------------------------------------------------Sweet alert & enabling order now button*/
 
-document.querySelector("#ordernow").addEventListener('click', function(){
-  Swal.fire("Thank you for the Order", "We will reach you soon to confirm everything!", "success");
-});
+// document.querySelector("#ordernow").addEventListener('click', function(){
+//   Swal.fire("Thank you for the Order", "We will reach you soon to confirm everything!", "success");
+// });
 
 
 
