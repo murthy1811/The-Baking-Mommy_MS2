@@ -384,10 +384,11 @@ div#map {
 }
 .displaymessage p{
     text-align: center;
-    padding-left: 75px;
     font-size: 20px;
     padding-top: 20px;
     width: 300px;
+    margin-right: 10px;
+    margin-left: 20px;
     
 }
 
@@ -491,13 +492,13 @@ div#map {
     }
     .small-screen-form label {
         float: left;
-        padding: 0;
-        margin: 0;
+        padding-bottom: 10px;
+        margin-left: 20px;
         
     }
     .aligntop label {
         float: left;
-        padding: 0;
+        padding-left: 20px;
         margin: 0;
     }
     .aligntop textarea {
