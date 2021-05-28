@@ -76,9 +76,9 @@
 
                             <div>
                                 <label for="fruit-cake-choice"> Select Fruit Cake</label>
-                                <input list="fruit-cake-type" id="fruit-cake-choice" name="fruit-cake-choice" placeholder="select fruit cake"
-                                    type="text" >
-                                <datalist id="fruit-cake-type" >
+                                <input list="fruit-cake-type" id="fruit-cake-choice" name="fruit-cake-choice"
+                                    placeholder="select fruit cake" type="text">
+                                <datalist id="fruit-cake-type">
                                     <!-- fruitcakelist(); -->
                                     <option value="Grape topping"></option>
                                     <option value="Oranges"></option>
@@ -98,9 +98,9 @@
 
                             <div>
                                 <label for="cream-cake-choice"> Select Cream Cake</label>
-                                <input list="cream-cake-type" id="cream-cake-choice" name="cream-cake-choice" placeholder="select cream cake"
-                                    type="text" />
-                                <datalist id="cream-cake-type" >
+                                <input list="cream-cake-type" id="cream-cake-choice" name="cream-cake-choice"
+                                    placeholder="select cream cake" type="text" />
+                                <datalist id="cream-cake-type">
                                     <!-- creamcakelist(); -->
                                     <option value="Vanilla"></option>
                                     <option value="Red velvet"></option>
@@ -120,7 +120,8 @@
 
                             <div>
                                 <label for="theme-choice"> Select Theme Cake</label>
-                                <input list="theme-type" id="theme-choice" name="theme-choice" placeholder="select theme" type="text" required>
+                                <input list="theme-type" id="theme-choice" name="theme-choice"
+                                    placeholder="select theme" type="text" required>
                                 <datalist id="theme-type">
                                     <!-- themelist(); -->
                                     <option value="Birthdays"></option>
@@ -132,6 +133,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="row displaymessage">
                         <div>
                             <p> Thank you for chosing the cake. Please fill out the form to the next. We will reach you
@@ -139,6 +141,9 @@
                                 agree on what you want</p>
                         </div>
                     </div>
+
+                    <!--============================================================================================Map API-->
+
                     <div class="row deliveryinfo">
                         <div id="map" class="col-12 col-md-7 d-sm-block d-none"></div>
 
@@ -155,28 +160,36 @@
                     </div>
 
                 </div>
-                
+                <!--======================================================================================Order Form-->
                 <div class="col-12 col-lg-4 order ">
-                
+
                     <h4> Order Now and Pay at Home</h4>
-                
+
                     <form onsubmit="return sendMail(this);" autocomplete="off" id="orderform">
-                
+
                         <div class="small-screen-form">
-                            <label for="cake">Cake Selected</label>
-                            <input type="text" name="cake" id="cake" required >
-                
-                            <label for="name">Name</label>
-                            <input type="text" name="name" id="name" placeholder="Your Name" required>
-                
-                            <label for="number" >Phone</label>
-                            <input type="number" name="number" id="number" placeholder="123456" required>
-                
-                            <label for="emailaddress" >Email</label>
-                            <input type="email" name="emailaddress" id="emailaddress" placeholder="Your Email" required>
-                
-                            <label for="address">Address</label>
-                            <input type="text" name="address" id="address" placeholder="Your Address" required>
+                            <div>
+                                <label for="cake">Cake Selected</label>
+                                <input type="text" name="cake" id="cake" required>
+                            </div>
+
+                            <div>
+                                <label for="name">Name</label>
+                                <input type="text" name="name" id="name" placeholder="Your Name" required>
+                            </div>
+                            <div>
+                                <label for="number">Phone</label>
+                                <input type="number" name="number" id="number" placeholder="123456" required>
+                            </div>
+                            <div>
+                                <label for="emailaddress">Email</label>
+                                <input type="email" name="emailaddress" id="emailaddress" placeholder="Your Email"
+                                    required>
+                            </div>
+                            <div>
+                                <label for="address">Address</label>
+                                <input type="text" name="address" id="address" placeholder="Your Address" required>
+                            </div>
                         </div>
                         <div class="aligntop">
                             <div>
@@ -185,7 +198,7 @@
                                     <textarea name="message" id="notes" rows="10" cols="40"
                                         placeholder="Any specific requests, Please write. "></textarea>
                                 </div>
-                
+
                                 <div class="d-sm-none d-block">
                                     <label for="notes2"> Additional Notes to us : </label>
                                     <br>
@@ -198,13 +211,10 @@
                             </div>
                         </div>
                     </form>
-                
-                
+
+
                 </div>
-                </div>
-
-
-
+            </div>
 
         </section>
 

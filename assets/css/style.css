@@ -424,29 +424,21 @@ div#map {
     color:#bd2130;
 }
 
-.order form{
+#orderform{
     padding-top: 25px;    
     min-height: 700px;
     text-align: center;
-
     }
-    
-.order input {
-    text-align: center;
-    width: 300px;
-
-}
 
 .small-screen-form label{
     display: inline-block;
-    width: 200px;
-    text-align: left;
     padding: 15px;
     font-family: 'Reggae One', sans-serif;
-    margin: 0;
     color: #bd2130;
+    width: 200px;
+    margin: 0px;
+    text-align: left;
 }
-
 
 .aligntop label {
     width: 205px;
@@ -458,10 +450,17 @@ div#map {
     color: #bd2130;
 }
 
+.order input {    
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    
+}
+
 .aligntop textarea {
     vertical-align: top;
     margin-top: 10px;
-    
+        
 }
 
 .send{
@@ -520,28 +519,18 @@ div#map {
 
 }
 
-@media only screen and (max-width: 1200px) and (min-width: 576px) {
+@media only screen and (max-width: 1615px) and (min-width: 991px) {
 
-    .small-screen-form input {
-        margin-right: 175px;
-    }
-
-    .aligntop textarea {
-        margin-right: 175px;
+    .small-screen-form label{
+        padding-left: 0px;
+        width: 185px;
+        text-align: justify;
     }
 
-    .small-screen-form label {
-        float: left;
-        padding-left: 0;
-        margin-left: 0;
-        
+    .aligntop label{
+        text-align: left;
     }
-    .aligntop label {
-        float: left;
-        padding-left: 0;
-        margin-left: 0;
-    }
-} 
+}
+
 
    
-}
