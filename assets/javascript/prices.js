@@ -29,7 +29,11 @@ toValidate.change(function () {
     function sweetalert(){
 
     Swal.fire("Thank you for the subscription", "Happy Eating!");
-
-    document.getElementById("subscribe").reset();
+    let clear = document.getElementById('mailbox');
+    clear.value='';
+    $('#subscribe').prop('disabled', true);
+               
     return false;
-}
+     }
+
+  
