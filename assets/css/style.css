@@ -568,17 +568,21 @@ div#map {
      font-size: 20px;
  }
 
- .subscription label{
+ .subscription {
      font-family: Reggae One, sans-serif;
-     color: brown;
      font-size: 20px;
      padding-bottom: 30px;
-     margin-left: 300px;
+     text-align: center;
  }
 
 
 #mailbox{
     text-align: center;
-    width: 300px;
+    width: 600px;
     margin: 10px;
+}
+
+#subscribe{
+    color: brown;
+    text-align: center;
 }
