@@ -535,4 +535,50 @@ div#map {
 }
 
 
-   
+ /* -----------------------------------------------------------------------------------------Prices page */  
+
+ .cakeprice {
+     min-width: 300px;
+     background-color: #67696d;
+     border-radius: 20px;
+     text-align: center;
+     font-family: Reggae One, sans-serif;
+     margin: 125px;
+     color: aqua;
+     padding: 20px;
+     min-height: 200px;
+ }
+
+ .cakeprice p{
+     font-size: 20px;
+     color: aqua;
+ }
+
+ .payment{
+     text-align: center;
+     font-family: Reggae One, sans-serif;
+     color: brown;
+     font-size: 30px;
+ }
+
+ .recipeoffer{
+       text-align: center;
+     font-family: Reggae One, sans-serif;
+     color: brown;
+     font-size: 20px;
+ }
+
+ .subscription label{
+     font-family: Reggae One, sans-serif;
+     color: brown;
+     font-size: 20px;
+     padding-bottom: 30px;
+     margin-left: 300px;
+ }
+
+
+#mailbox{
+    text-align: center;
+    width: 300px;
+    margin: 10px;
+}
