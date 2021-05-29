@@ -80,9 +80,7 @@ function sendMail(contactForm){
         function(response){
             console.log("SUCCESS", response);
             document.getElementById("orderform").reset();
-            // let disable= document.getElementById("ordernow");
-            // disable.disabled=true;
-                   },
+           },
         function(error){
             console.log("FAILED", error);
         },
@@ -92,24 +90,37 @@ function sendMail(contactForm){
     return false;
 }
 
-/* ---------------------------------------------------------------------Sweet alert & enabling order now button*/
-
-// document.querySelector("#ordernow").addEventListener('click', function(){
-//   Swal.fire("Thank you for the Order", "We will reach you soon to confirm everything!", "success");
-// });
-
-
-
-
-
-
 /* --------------------------------------------------------------------------------JS for selecting cake */
 
-// function enablelist(tickthis){
-//   let fruitcake = document.getElementById('#fruit-cake-choice');
-//   fruitcake.disabled= tickthis.click?false:true;
-//   if(!fruitcake.disabled){
-//       fruitcake.focus();
-//   }
-// }
+$('#fruit-cake-choice').prop('disabled', true);
 
+document.getElementById("tickthis").addEventListener("click", enablelist);
+
+function enablelist(){
+    $('#fruit-cake-choice').prop('disabled', false);
+    
+}
+
+
+$('#cream-cake-choice').prop('disabled', true);
+
+document.getElementById("tickthis2").addEventListener("click", enablelist2);
+
+function enablelist2(){
+    $('#cream-cake-choice').prop('disabled', false);
+}
+
+$('#theme-choice').prop('disabled', true);
+
+document.getElementById("tickthis3").addEventListener("click", enablelist3);
+
+function enablelist3(){
+    $('#theme-choice').prop('disabled', false);
+}
+
+
+/* --------------------------------------------------------------------------------JS for the display message */
+
+let fruitcake = document.getElementById('#fruit-cake-choice').value;
+
+document.getElementsByClassName(".displaymessage").children().children().innerHTML = ""
