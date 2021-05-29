@@ -121,6 +121,16 @@ function enablelist3(){
 
 /* --------------------------------------------------------------------------------JS for the display message */
 
-let fruitcake = document.getElementById('#fruit-cake-choice').value;
+// $(document).ready(function(){
+//    $('#newpara').hide();
+   
+// })
 
-document.getElementsByClassName(".displaymessage").children().children().innerHTML = ""
+// let fruitcake = document.getElementById('#fruit-cake-choice').value;
+// let creamcake = document.getElementById('#cream-cake-choice').value;
+// let theme=document.getElementById('#theme-choice').value;
+
+// document.getElementById('newpara').innerHTML = `Thank you for chosing the ${fruitcake} - ${creamcake} with ${theme}. Please fill out the form to the next. We will reach you
+//                                 and
+//                                 agree on what you want` ;
+// $('#newpara').show('slow');
