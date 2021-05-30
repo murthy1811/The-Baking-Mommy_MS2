@@ -634,12 +634,6 @@ div#map {
 
 /* -----------star rating queriess CSS( code taken from https://www.markuptag.com/feedback-form-with-star-rating-html/ ) */  
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: arial;
-}
 .star-rating form {
     display: none;
 }
@@ -657,7 +651,7 @@ div#map {
     display: none;
 }
 .star-rating {
-    margin: 50px auto;
+    margin: 30px auto;
     display: table;
     width: 350px;
 }
@@ -719,4 +713,35 @@ div#map {
 }
 form .submit-rating:hover {
     background-color: #333;
+}
+
+/* ------------------------------------------------------------------------------------Style for rest of feedback */  
+
+.request h4{
+    padding-top: 20px;
+    font-family: Reggae One, sans-serif;
+    text-align: center;
+    color: #dd65bf;
+}
+
+#feedbackform{
+    padding-top: 20px;
+    font-family: Reggae One, sans-serif;
+    text-align: left;
+    color: #795548;
+}
+
+.question{
+    padding-bottom: 20px;
+}
+
+#textfeedback{
+    display: block;
+}
+
+.submit-rating{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 25px;
+    
 }
