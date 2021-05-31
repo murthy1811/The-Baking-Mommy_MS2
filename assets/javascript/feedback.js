@@ -1,40 +1,60 @@
 
-// JS for star ratings ( code credit to : https://www.markuptag.com/feedback-form-with-star-rating-html/)
+
+$('#submitBtn').prop('disabled', true);
 
 
-$('.submit-rating').prop('disabled', true);
+function formcheck(){
+ 
+     if ($('.form-check-input').change()=='true' &&  $('.form-control').val().length >0 && $('.star-input').change()=='true') {
+        $('#submitBtn').prop('disabled', false);
 
-$("input[type=radio]").one("click", function() { $(".submit-rating").prop("disabled", false); });
-
-let toValidate = jQuery('#choice'),
-    valid = false;
-toValidate.change(function () {
-    if (jQuery(this).val().length > 0) {
-        jQuery(this).data('valid', true);
-    } else {
-        jQuery(this).data('valid', false);
+    } else{
+        return false;
     }
-    toValidate.each(function () {
-        if (jQuery(this).data('valid') == true) {
-            valid = true;
-        } else {
-            valid = false;
-        }
-    });
-    if (valid === true) {
-        jQuery(".submit-rating").prop('disabled', false);
-    } else {
-        jQuery(".submit-rating").prop('disabled', true);
-    }
-    
-});
-
-const btn = document.querySelector(".submit-rating");
-const thanksmsg = document.querySelector(".thanks-msg");
-const starRating = document.querySelector(".star-input");
-// Success msg show/hide
-btn.onclick = () => {
-    starRating.style.display = "none";
-    thanksmsg.style.display = "table";
-    return false;
 };
+
+//   document.getElementById("submitBtn").addEventListener("click", submitconfirm);
+   
+
+function submitconfirm(){
+    event.preventDefault();
+            Swal.fire("Thank you for your feedback!");
+              
+    return false;
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const btn = document.querySelector(".submit-rating");
+// const thanksmsg = document.querySelector(".thanks-msg");
+// const starRating = document.querySelector(".star-input");
+// // Success msg show/hide
+
+
+// btn.onclick = () => {
+//     starRating.style.display = "none";
+//     thanksmsg.style.display = "table";
+//     return false;
+// };
+
+

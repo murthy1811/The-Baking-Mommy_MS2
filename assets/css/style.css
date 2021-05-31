@@ -746,6 +746,18 @@ form .submit-rating:hover {
     
 }
 
+.form-check-input{
+    padding: 10px 10px 10px 0px;
+    margin-left: 10px;
+    margin-bottom: 12px;
+}
+
+.form-check-label{
+    padding: 0px 10px 10px 10px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
 @media(max-width:576px) {
 
     #textfeedback{
