@@ -673,7 +673,7 @@ div#map {
     float: left;
     color: #ffc107;
 }
-.star-rating #rating-1:checked ~ form .rating-reaction:before {
+/* .star-rating #rating-1:checked ~ form .rating-reaction:before {
     content: "I hate it";
 }
 .star-rating #rating-2:checked ~ form .rating-reaction:before {
@@ -687,7 +687,7 @@ div#map {
 }
 .star-rating #rating-5:checked ~ form .rating-reaction:before {
     content: "I love it";
-}
+} */
 .star-rating input:checked ~ form {
     border-top: 1px solid #ddd;
     width: 100%;

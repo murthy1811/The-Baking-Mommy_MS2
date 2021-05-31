@@ -5,6 +5,12 @@ window.onload = function() {
         Swal.fire("Thank you for your feedback!");
         document.getElementById("feedbackform").reset();
         // send email here
+
+        emailjs.send("service_xkqr1dk","template_8p5dh3t", {
+            "caketype":event.cakechoice.checked
+        });
+
+
     });
 }
 
