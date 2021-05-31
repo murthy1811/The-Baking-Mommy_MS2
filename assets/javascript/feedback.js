@@ -1,27 +1,13 @@
-
-
-$('#submitBtn').prop('disabled', true);
-
-
-function formcheck(){
  
-     if ($('.form-check-input').change()=='true' &&  $('.form-control').val().length >0 && $('.star-input').change()=='true') {
-        $('#submitBtn').prop('disabled', false);
+window.onload = function() {
+    document.getElementById('feedbackform').addEventListener('submit', function(event) {
+        event.preventDefault();
+        Swal.fire("Thank you for your feedback!");
+        document.getElementById("feedbackform").reset();
+        // send email here
+    });
+}
 
-    } else{
-        return false;
-    }
-};
-
-//   document.getElementById("submitBtn").addEventListener("click", submitconfirm);
-   
-
-function submitconfirm(){
-    event.preventDefault();
-            Swal.fire("Thank you for your feedback!");
-              
-    return false;
-     }
 
 
 
