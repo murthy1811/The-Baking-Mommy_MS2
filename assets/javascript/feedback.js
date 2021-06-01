@@ -7,7 +7,13 @@ window.onload = function() {
         // send email here
 
         emailjs.send("service_xkqr1dk","template_8p5dh3t", {
-            "caketype":event.cakechoice.checked
+            "caketype": cakeChoice,
+            "cakeflavour":event.choice.value,
+            "cakerating": cakeRating,
+            "recommendation": cakeRecommend,
+            "tellus": event.comments.value,
+            "starrating": overallRating
+            
         });
 
 

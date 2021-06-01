@@ -75,16 +75,19 @@
                     <h4> Please help us in getting better and serve you better!!</h4>
                     <div class="container">
 
-                        <form class="was-validated" autocomplete="off" id="feedbackform" >
+                        <form class="was-validated" autocomplete="off" id="feedbackform">
 
                             <div class="row question">
                                 <div class="col-12 form-check mb-3">
                                     <p> 1. What is the type of Cake you ordered?</p>
-                                    <input class="form-check-input" type="radio" id="fruitcake" name="cakechoice" value="Fruit Cake" required>
+                                    <input class="form-check-input" type="radio" id="fruitcake"
+                                        name="cakechoice" value="Fruit Cake" onClick="cakeChoice =this.value;" required>
                                     <label class="form-check-label" for="fruitcake">Fruit Cake</label>
-                                    <input class="form-check-input" type="radio" id="creamcake" name="cakechoice" value="Cream Cake" required>
+                                    <input class="form-check-input" type="radio" id="creamcake"
+                                        name="cakechoice" value="Cream Cake" onClick="cakeChoice =this.value;" required>
                                     <label class="form-check-label" for="creamcake">Cream Cake</label>
-                                    <input class="form-check-input" type="radio" id="themecake" name="cakechoice" value="Theme Cake" required>
+                                    <input class="form-check-input" type="radio" id="themecake"
+                                        name="cakechoice" value="Mix/Theme Cake" onClick="cakeChoice =this.value;" required>
                                     <label class="form-check-label" for="themecake">Mix/Theme Cake</label>
                                     <div class="invalid-feedback">Please select atleast one option</div>
                                 </div>
@@ -93,23 +96,29 @@
                             <div class="row question">
                                 <div class="col-12 mb-3">
                                     <p>2. Please fill in the flavour of cake you have chosen</p>
-                                    <input class="form-control is-invalid" type="text" id="choice" name="choice" required>
-                                   
+                                    <input class="form-control is-invalid" type="text" id="choice" name="choice"
+                                        required>
+
                                 </div>
                             </div>
 
                             <div class="row question">
                                 <div class="col-12">
                                     <p>3.On a scale of 1 to 5, How much do you enjoyed the cake?</p>
-                                    <input class="form-check-input" type="radio" id="rate1" name="rate" value="1" required>
+                                    <input class="form-check-input" type="radio" id="rate1" name="rate" value="1"
+                                       onClick="cakeRating =this.value;" required>
                                     <label class="form-check-label" for="rate1">1</label>
-                                    <input class="form-check-input" type="radio" id="rate2" name="rate" value="2" required>
+                                    <input class="form-check-input" type="radio" id="rate2" name="rate" value="2"
+                                       onClick="cakeRating =this.value;" required>
                                     <label class="form-check-label" for="rate2">2</label>
-                                    <input class="form-check-input" type="radio" id="rate3" name="rate" value="3" required>
+                                    <input class="form-check-input" type="radio" id="rate3" name="rate" value="3"
+                                       onClick="cakeRating =this.value;" required>
                                     <label class="form-check-label" for="rate3">3</label>
-                                    <input class="form-check-input" type="radio" id="rate4" name="rate" value="4" required>
+                                    <input class="form-check-input" type="radio" id="rate4" name="rate" value="4"
+                                       onClick="cakeRating=this.value;" required>
                                     <label class="form-check-label" for="rate4">4</label>
-                                    <input class="form-check-input" type="radio" id="rate5" name="rate" value="5" required>
+                                    <input class="form-check-input" type="radio" id="rate5" name="rate" value="5"
+                                      onClick="cakeRating=this.value;"  required>
                                     <label class="form-check-label" for="rate5">5</label>
                                     <div class="invalid-feedback">Please select atleast one option</div>
                                 </div>
@@ -119,15 +128,20 @@
                                 <div class="col-12">
                                     <p>4.On a scale of 1 to 5, How much do you recommend our cake to your friends &
                                         family?</p>
-                                    <input class="form-check-input" type="radio" id="rate11" name="rate2" value="1" required>
+                                    <input class="form-check-input" type="radio" id="rate11" name="rate2" value="1"
+                                       onClick="cakeRecommend=this.value;"  required>
                                     <label class="form-check-label" for="rate11">1</label>
-                                    <input class="form-check-input" type="radio" id="rate22" name="rate2" value="2" required>
+                                    <input class="form-check-input" type="radio" id="rate22" name="rate2" value="2"
+                                      onClick="cakeRecommend=this.value;"  required>
                                     <label class="form-check-label" for="rate22">2</label>
-                                    <input class="form-check-input" type="radio" id="rate33" name="rate2" value="3" required>
+                                    <input class="form-check-input" type="radio" id="rate33" name="rate2" value="3"
+                                      onClick="cakeRecommend=this.value;"  required>
                                     <label class="form-check-label" for="rate33">3</label>
-                                    <input class="form-check-input" type="radio" id="rate44" name="rate2" value="4" required>
+                                    <input class="form-check-input" type="radio" id="rate44" name="rate2" value="4"
+                                      onClick="cakeRecommend=this.value;"  required>
                                     <label class="form-check-label" for="rate44">4</label>
-                                    <input class="form-check-input" type="radio" id="rate55" name="rate2" value="5" required>
+                                    <input class="form-check-input" type="radio" id="rate55" name="rate2" value="5"
+                                      onClick="cakeRecommend=this.value;"  required>
                                     <label class="form-check-label" for="rate55">5</label>
                                     <div class="invalid-feedback">Please select atleast one option</div>
                                 </div>
@@ -146,16 +160,16 @@
                                     <div class="star-rating">
                                         <div class="thanks-msg">Thanks for your feedback !!!</div>
                                         <div class="star-input">
-                                            <input  type="radio" name="rating" id="rating-5" required>
-                                            <label  for="rating-5" class="fas fa-star"></label>
-                                            <input  type="radio" name="rating" id="rating-4" required>
-                                            <label  for="rating-4" class="fas fa-star"></label>
-                                            <input  type="radio" name="rating" id="rating-3" required>
-                                            <label  for="rating-3" class="fas fa-star"></label>
-                                            <input  type="radio" name="rating" id="rating-2" required>
-                                            <label  for="rating-2" class="fas fa-star"></label>
-                                            <input  type="radio" name="rating" id="rating-1" required>
-                                            <label  for="rating-1" class="fas fa-star"></label>
+                                            <input type="radio" name="rating" id="rating-5" value="I hate it" onClick="overallRating=this.value;" required>
+                                            <label for="rating-5" class="fas fa-star"></label>
+                                            <input type="radio" name="rating" id="rating-4" value="I don't like it" onClick="overallRating=this.value;" required>
+                                            <label for="rating-4" class="fas fa-star"></label>
+                                            <input type="radio" name="rating" id="rating-3" value="It is good" onClick="overallRating=this.value;" required>
+                                            <label for="rating-3" class="fas fa-star"></label>
+                                            <input type="radio" name="rating" id="rating-2" value="I like it" onClick="overallRating=this.value;" required>
+                                            <label for="rating-2" class="fas fa-star"></label>
+                                            <input type="radio" name="rating" id="rating-1" value="I love it" onClick="overallRating=this.value;" required>
+                                            <label for="rating-1" class="fas fa-star"></label>
 
                                         </div>
                                     </div>
@@ -163,11 +177,11 @@
                             </div>
 
                             <div>
-                            <span class="rating-reaction"></span>
-                            <button type="submit" id="submitBtn" class="submit-rating">Submit</button>
+                                <span class="rating-reaction"></span>
+                                <button type="submit" id="submitBtn" class="submit-rating">Submit</button>
                             </div>
                         </form>
-                    </div>      
+                    </div>
                 </div>
 
                 </form>
