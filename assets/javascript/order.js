@@ -122,15 +122,25 @@ function enablelist3(){
 /* --------------------------------------------------------------------------------JS for the display message */
 
 // $(document).ready(function(){
-//    $('#newpara').hide();
-   
+//    $('#newpara').hide();   
 // })
 
-// let fruitcake = document.getElementById('#fruit-cake-choice').value;
-// let creamcake = document.getElementById('#cream-cake-choice').value;
-// let theme=document.getElementById('#theme-choice').value;
 
-// document.getElementById('newpara').innerHTML = `Thank you for chosing the ${fruitcake} - ${creamcake} with ${theme}. Please fill out the form to the next. We will reach you
-//                                 and
-//                                 agree on what you want` ;
+    // var element_input = document.getElementById('fruit-cake-choice');
+    // var element_datalist = document.getElementById('fruit-cake-type');
+    // var opSelected = element_datalist.querySelector(`[value="${element_input.value}"]`);
+    // var id = opSelected.getAttribute('data-value');
+
+let fruitcake = document.getElementById('fruit-cake-choice').value;
+let creamcake = document.getElementById('cream-cake-choice').value;
+let theme=document.getElementById('theme-choice').value;
+
+document.getElementById('fruit-cake-choice').addEventListener('input', function () {
+  document.getElementById('newpara').innerHTML = `Thank you for chosing the ${fruitcake} - ${creamcake} with ${theme}. Please fill out the form to the next. We will reach you
+                                and
+                                agree on what you want` ;
+});
+
+  
+
 // $('#newpara').show('slow');
