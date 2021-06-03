@@ -35,6 +35,44 @@
         }
  
 
+/* --------------------------------------------------------------------------------JS for selecting cake */
+
+$('#fruit-cake-choice').prop('disabled', true);
+$('#cream-cake-choice').prop('disabled', true);
+$('#theme-choice').prop('disabled', true);
+
+function toggleEnable(id) {
+   var textbox = document.getElementById(id);
+   
+   if (textbox.disabled) {     
+       document.getElementById(id).disabled = false;
+       document.getElementById(id).addEventListener('input', function () {
+       let selectedValue1 = document.getElementById('fruit-cake-choice').value;
+       let selectedValue2 = document.getElementById('cream-cake-choice').value;
+       let selectedValue3 = document.getElementById('theme-choice').value;
+       document.getElementById('newpara').innerHTML = `Thank you for chosing the ${selectedValue1} ${selectedValue2} ${selectedValue3} . Please fill out the form to the next. We will reach you
+                                and
+                                agree on what you want` ;
+
+       document.getElementById('cake').value = ` ${selectedValue1} - ${selectedValue2} - ${selectedValue3} `;
+});
+
+       
+      } else {
+       document.getElementById(id).disabled = true;
+       document.getElementById(id).value= "";
+       let selectedValue1 = document.getElementById('fruit-cake-choice').value;
+       let selectedValue2 = document.getElementById('cream-cake-choice').value;
+       let selectedValue3 = document.getElementById('theme-choice').value;
+       document.getElementById('newpara').innerHTML = `Thank you for chosing the ${selectedValue1} ${selectedValue2} ${selectedValue3} . Please fill out the form to the next. We will reach you
+                                and
+                                agree on what you want` ;
+
+       document.getElementById('cake').value = ` ${selectedValue1} - ${selectedValue2} - ${selectedValue3} `;
+
+     }     
+}
+
 /* --------------------------------------------------------------------------------emailjs for order form */
 
 $('#ordernow').prop('disabled', true);
@@ -62,11 +100,15 @@ toValidate.change(function () {
     
 });
 
+
+
+
 function sendMail(contactForm){
 
     Swal.fire("Thank you for the Order", "We will reach you soon to confirm everything!", "success");
 
     emailjs.send("service_xkqr1dk","template_m0virhs", {
+        
         "from_name": contactForm.name.value,
         "from_phone": contactForm.number.value,         
         "cake": contactForm.cake.value,      
@@ -89,35 +131,6 @@ function sendMail(contactForm){
     
     return false;
 }
-
-/* --------------------------------------------------------------------------------JS for selecting cake */
-
-$('#fruit-cake-choice').prop('disabled', true);
-$('#cream-cake-choice').prop('disabled', true);
-$('#theme-choice').prop('disabled', true);
-
-function toggleEnable(id) {
-   var textbox = document.getElementById(id);
-   
-   if (textbox.disabled) {     
-       document.getElementById(id).disabled = false;
-       document.getElementById(id).addEventListener('input', function () {
-       let selectedValue1 = document.getElementById('fruit-cake-choice').value;
-       let selectedValue2 = document.getElementById('cream-cake-choice').value;
-       let selectedValue3 = document.getElementById('theme-choice').value;
-       document.getElementById('newpara').innerHTML = `Thank you for chosing the ${selectedValue1} ${selectedValue2} ${selectedValue3} . Please fill out the form to the next. We will reach you
-                                and
-                                agree on what you want` ;
-});
-
-       
-      } else {
-       document.getElementById(id).disabled = true;
-       document.getElementById(id).value= "";
-     }     
-}
-
-
 /* --------------------------------------------------------------------------------JS for the display message */
 
 // $(document).ready(function(){
