@@ -314,6 +314,15 @@ button{
 
   /* --------------------------------------------------------------Select images, map */
 
+.guidetext{
+    padding-top: 20px;
+    font-family: Reggae One, sans-serif;
+    color: #dd65bf;
+    text-align: center;
+    font-size: 20px;
+}
+
+
 .select{
     display: inline-block;    
      padding-top: 25px;
@@ -348,6 +357,7 @@ button{
     font-size: 20px;
     padding-top: 50px;
     margin: 0px 50px 0px 50px ;
+    color: purple;
 }
 
 

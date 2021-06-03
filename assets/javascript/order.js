@@ -50,7 +50,7 @@ function toggleEnable(id) {
        let selectedValue1 = document.getElementById('fruit-cake-choice').value;
        let selectedValue2 = document.getElementById('cream-cake-choice').value;
        let selectedValue3 = document.getElementById('theme-choice').value;
-       document.getElementById('newpara').innerHTML = `Thank you for chosing the ${selectedValue1} ${selectedValue2} ${selectedValue3} . Please fill out the form to the next. We will reach you
+       document.getElementById('newpara').innerHTML = `Thank you for chosing the ${selectedValue1} - ${selectedValue2} - ${selectedValue3} . Please fill out the form to the next. We will reach you
                                 and
                                 agree on what you want` ;
 
