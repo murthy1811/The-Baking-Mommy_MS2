@@ -1,45 +1,339 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome Murthy Valavala,
+# The Baking Mommy 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+This website is designed for an young enterpreneur and a home maker, to establish her business to sell the cakes within the Gothenburg city of Sweden.
+Target audience are all the users who are interested in ordering the cakes online to celebrate their happy moments.
 
-## Gitpod Reminders
+This project should guide the user smoothly to check out the assortment of cakes available, navigate easily to make an order, check out the prices and as well give the feedback
+on the overall experience. User should be aware of each step what happens when they order the cake
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Showcase
 
-`python3 -m http.server`
+A deployed link to the website can be found [here](https://murthy1811.github.io/Milestone-project-1/). (NEED TO UPDATE)
 
-A blue button should appear to click: *Make Public*,
+Preview of the site is found [here](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/snapshots/landing-page.JPG).  (NEED TO UPDATE)
 
-Another blue button should appear to click: *Open Browser*.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: *Make Public*,
+# UX
 
-Another blue button should appear to click: *Open Browser*.
+## Organisational stories
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The enterpreneur, labelled "The Baking Mommy" wants 
 
-## Updates Since The Instructional Video
+1. To reach all the cake lovers in Gothenburg city.
+2. To give clear information of her assortment of cakes.
+3. To take orders Online through the website
+4. To give out clear information on what happens when an user orders cake
+5. To make it easy to navigate and make an order by user.
+6. To evoke interest in the user to make an order, and also to revisit for new orders.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## User stories
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+As an User, I should be able to
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+1. find information on the type of cakes available
+2. Understand or read the other users experience with the cake
+3. Easily make an order for an interested cake
+4. Get confirmation once I make an order or give feedback
+5. check out the social media of the organisation and can reach them through it
+6. associate with the organisation to make future purchases.
+7. Get the details of the prices
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Developer and Business stories
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+* Clearly planned programming is done that leaves developers to improve the application further, easily and flexibly.
+* A project which has lot of scope to make improvements further in the future.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Strategy
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### User Needs.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+User should access the website on all devices and should be easy enough to navigate and get all the info needed
 
---------
+#### Technical limitations
 
-Happy coding!
+Current project is interactive website. There is lot of scope to improve the content and features. Should be able to improve the cake assortment section, and cake selection section for 
+easy interaction. The project is open to arrange payment section. The website can be built to give confirmation to user after order, through sms and email.
+
+Current project uses HTML, CSS, Javascript, JQuery. Libraries like Bootstrap, EmailJS, Google maps API are used.
+
+
+## Scope
+
+To encourage user to make an order for cake. To develop a curiosity in user to bring back to the website.  It is important to get all social media links function properly 
+and to reach wider audience, everything should be smoother and simpler. To give out the clear information needed
+
+## Structure
+
+With a carousel slides, the cake images with intriguing captions, should attract the user to make an order for the cake.
+The Home page should give out the types of cake available with some user reviews. The header page should have a logo and funky fonts for the navigation menu. 
+Small screens should have toggler menu. The footer page should make links for social media. Give some information about 
+the enterpreneur, and also contact to reach in case there are any queries.
+
+The Order page should help the user to pick a cake, and understand which cake is ordered through a text. 
+Then the user should be advised to  fill a form . User should be clearly aware that he/she will be contacted for further discussion after the order is made.
+The page should show the maps for locations, where the general delivery will be done in certain times. User should be aware of the hoome delivery costs.
+
+Prices page should provide the information on costs of the cake. Also, User should be encouraged to subscribe for the future offers, and recipes, there by
+encouraging user to visit the website back. User should be encouraged to make connection with the social media.
+
+Feedback page should encourage the user to fill the questionaire one by one and should facilitate he/she to give a star rating.
+confirmation should be must for the user to understand after the feedback is done.
+
+## Skeleton
+
+#### Wireframes (SHOULD BE UPDATED)
+
+[Main page Mobile wireframe](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/wireframe/Milestone%201_mobile%20wireframe.png)
+
+[Main page Desktop wireframe](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/wireframe/Milestone%201_Desktop%20wireframe.png)
+
+[Main page Tablet wireframe](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/wireframe/Milestone%201_Tablet%20Wireframe.png)
+
+[Register page Mobile wireframe](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/wireframe/Milestone%201_mobile%20%20wireframe%20_registration%20page.png)
+
+[Register page Desktop wireframe](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/wireframe/Milestone%201_Desktop%20wireframe%20_registration%20page.png)
+
+[Register page Tablet wireframe](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/wireframe/Milestone%201_Tab%20wireframe%20_registration%20page.png)
+
+[Contact page Mobile wireframe](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/wireframe/Milestone%201_mobile%20%20wireframe%20_contact%20page.png)
+
+[Contact page Desktop wireframe](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/wireframe/Milestone%201_Desktop%20wireframe%20_contact%20page.png)
+
+[Contact page Tablet wireframe](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/wireframe/Milestone%201_Tab%20wireframe%20_contact%20page.png)
+
+[Press page Mobile wireframe](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/wireframe/Milestone%201_mobile%20%20wireframe%20_press%20info%20page.png)
+
+[Press page Desktop wireframe](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/wireframe/Milestone%201_Desktop%20wireframe%20_press%20info%20page.png)
+
+[Press page Tablet wireframe](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/wireframe/Milestone%201_Tablet%20wireframe%20_press%20info%20page.png)
+
+
+
+# Features 
+
+ . Social media links
+ . Toggler menu for small screens
+ . Sliding hero images
+ . Cake selection interaction
+ . Google maps
+ . Email alert when an order is made and feedback is filled.
+ . subscription encouragement
+
+
+## Existing Features
+
+- Nav bar facilitates the user to naviagte between the pages for Home, order, prices and feedback
+- Navbar in mobile is burger type (toggler icon)
+- Smooth scrolling for better UX.
+
+
+## Features Left to Implement
+
+- Email and SMS confirmation to the user after an order is made
+- Payment page can be made, with backend technologies in future
+
+# Technologies Used
+
+- HTML5
+- CSS3
+- Javascript
+- Bootstrap v4.3.1
+- Google Chrome Dev tools for debugging
+- Google Light house for audits
+- [JQuery](https://jquery.com) The project uses **JQuery** to simplify DOM manipulation.
+- EmailJS
+
+
+# Testing
+
+### Planning
+
+Plan is to test the site manually and using the Google Lighthouse to evaluate the overall performance and chrome devtools to test each layout.
+
+Devices tested for responsive design are iphone5/SE, iphone6/7/8/plus, Ipad, ipadpro, Galaxy S5
+
+Screen testing done for the screens 24" computer screen (1920 x 1080), Laptop 14".
+
+The entire code is checked in validators and errors identified are solved and explained in bugs section
+
+Browsers tested are Microsoft Edge, and Google Chrome.
+
+### Implementation
+
+Plan is to test the site based on user stories. If the user stories are working as per the intention on all devices , then the testing is 
+successful. Identified challenges and bugs while writing the code and how this is solved is writtten in bugs section.
+
+I tested if i can navigate to all required pages to fulfill the user story on all devices using devtools.
+
+I tested if i can able to call and email through the website as per user story. Preview [here](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/snapshots/reach-to-authorities.JPG). 
+
+I tested if the information regarding the vaccine is visible and readable to the user on all devices Preview [here](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/snapshots/information-on-vaccine.JPG).
+
+I made sure on registration page, a simple query is asked if an user is registering for himself or someone else. and is seen in all devices. Preview [here](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/snapshots/register-snap.JPG).
+
+I made sure the information regarding when one can get vaccinated on home page as well as on registration page, which is basically information
+ that authorities will reach the user soon after registration.
+
+I made sure all the links regarding the latest news are working on all devices and are opening in new tabs.
+
+I tested all social media links are working on all devices.
+
+I used devtools many times to test the intention, and if it does not work out, I tried to adjust the code in devtools and achieved the 
+intended result by copying the changed code to the html files.
+
+I used Lighthouse to check if the best practices are used or not. Initially I am not sure how to improve the results but tried to 
+use google and made changes in the code to achieve the better results.
+
+### Results 
+
+There were troubles intially to make the navbar toggler icon work in mobiles. I slowly studied the navbar classes functioning in Bootstrap
+and override the classes and adjusted to my requirments and achieved the intended results. Again, many times devtools are a great help.
+
+Noticed several errors of sizing fonts to the responsive design and fixed them by writing responsive design in CSS
+
+Intial score of the site from google light house is as below
+
+Performance : 84% , Accesibility : 93%, Best practices :87% SEO: 90%  Initial score preview [here](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/snapshots/Intial%20light%20house%20score.PNG).
+
+Final score after optimization like resizing images, adding rel=noopener attribute to the a tags with target=_blank, and also added meta description
+
+Performance : 89% , Accesibility : 93%, Best practices :93% SEO: 100% . Final score preview [here](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/snapshots/Final%20light%20house%20score.PNG).
+
+
+### Deployment
+
+The current deployment of this project is done using github.
+
+Code is written in gitpod interface. git commands - add, commit, push are of great help to push the code to repository in github.
+
+The deployed website is hosted on github pages for easy viewing without having to clone or fork the repository to view the running website.
+
+To deploy this page to GitHub pages from its GitHub repository, the following steps were taken
+1. Log into GitHub
+2. From the list of repositories on the screen , select murthy1811/Milestone-project-1
+3. From the menu items near the top of the page, select Settings
+4. Scroll down to the GitHub Pages section
+5. Under Source click the drop-down menu labelled None and select Master Branch and save
+6. On Saving, the page will be refreshed and the website is now deployed
+7. Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
+
+### How to run this project locally
+
+To clone this project into Gitpod you will need a Github account. [Create a Github account here] (https://www.github.com)
+
+Follow below steps
+
+1. Install the Gitpod browser extensions for Chrome.
+2. After Installation, restart the browser
+3. Log into Gitpod with your github account
+4. Navigate to the Project GitHub repository
+5. Click the green "Gitpod" button in the top right corner of the repository
+6. This will trigger a new gitpod workspace to be created from the code in the github where you can work locally.
+
+To work on the project code within a local IDE such as VSCode, Pycharm etc:
+
+1. Follow this link to the [Project GitHub repository](
+2. Under the repository name, click "Clone or download"
+3. In the Clone with HTTPs section, copy the clone URL for the repository
+4. In your local IDE open the terminal
+5. Change the current working directory to the location where you want the cloned directory to be made
+6. Type "git clone", and then paste the URL you copied in Step 3.
+
+   git clone https://github.com/murthy1811/Milestone-project-1.git
+
+7. Press Enter. Your local clone will be created.
+
+## Bugs
+
+1. First hurdle in developing this site came to me to fit in the logo of vastra gotaland. The image is unable to adjust to the responsive design
+   for different devices. Rather than writing more code in html, I choose to take the logo as background and adjust for different screens using
+   bootstrap and called media queries for different screen sizes
+
+2. Further, this gave me trouble in while coding for toggler icon for mobiles. The toggler icon  while expanding, the menu items were floating to 
+   right and overflowed out of screen. By writing the correct code for bootstrap for navbar and adjusting classes I managed to solve this.
+   I used more classes like mr-auto, mr-2 and navbar-collapse class width is adjusted to suit the needs.
+
+3. I noticed after coding, that Home menu is not visible on ipad. Then I wrote the media screen query (max-width: 992px) and (min-width: 768px)  for different screens, which involved
+   ipad as well. This solved the issue.
+
+4. Initially I want to the expanded menu on mobiles to occupy the space above hero image. I could not solve this first. Later, I managed to solve
+    using stackoverflow.com website help by using fixed-top command in html but I noticed that instead of menu occupying above the image, it is clean to push the content down.
+    So, later I kept the original code.
+
+5. Images in info section of the index page, were distorted initially. During the mentor mid project review, a quick suggestion by mentor 
+   solved this. I used object-fit in CSS to solve this.
+
+6. Register button in Info section of index page initially do not have the link to open the register page. With a little search and help from
+   w3schools.com , I updated the code and solved this. onclick="document.location='register.html' is added to the button element
+   
+7. Initially Logo is not linked to index page. A little check upon my code myself and adjusting the divs , and bootstrap classes solved this.
+
+8. When Nav links highlighitng not worked, I noticed class active is missing and corrected in all pages as needed.
+
+9. Register page is not properly aligned in mobile. As per mentor recommendation, I corrected the code by making a single form and keeping all labels
+   and inputs in one form, and wrote the proper CSS code, alignment is achieved in mobile for registration.
+
+10. Added telephone and email links in contact page by href=tel and href=mailto: options as per mentor recommendation
+
+11. In location section, for index and contact pages, intially I used only h4 and h5 elements , and as per mentor recommendation , I changed it to h4 and properly
+
+12. While code is checked in validators, there is an parse error and the same code is written again and deleted the old one. This solved the issue
+
+13. Wrong usage of p element is identified when ul element is placed with in p. This error is fixed.
+
+## Credits
+
+- Main logo( vastra-gotaland-logo.jpeg) of vastra gotaland regionen is taken from their original website and Västra Götaland Regionen is the rightful owner for the logo
+and I have used their logo only for educational purposes for my Dipoma at Code Institute.
+
+- Links used in Press page were from WHO website and thelocal.se 
+
+- All my images that were used during the development of this site were as below with credits.
+
+    1.heroimage.jpg
+
+     coronavirus-4914026_1920_Image by <a>href=httpspixabay.comuserstumisu-148124utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4914026Tumisua from a href=httpspixabay.comutm_source=li
+      </a> 
+
+    2.corono-vaccine.jpg
+
+     pexels-nataliya-vaitkevich-5863400_Photo by Nataliya Vaitkevich from Pexels
+
+    3.coronavirus-vaccine.jpg
+
+    <a href='https://www.freepik.com/photos/cartoon'>Cartoon photo created by crowf - www.freepik.com</a>
+
+    4.vaccine-bottle.jpg
+
+    vaccine-5926664_1920_Image by <a>href=httpspixabay.comuserstorstensimon-5039407utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5926664torstensimona from a href=httpspixabay.comutm_</a>
+
+   
+- Fontawesome was used for the favicions throughout the page.
+
+    https://fontawesome.com/
+
+
+- Bootstrap is used thorugh out the code specifically to define the columns, and navbar menu.
+
+- https://stackoverflow.com/ is very helpful in answering various questions popped up while making the code. 
+
+- Original wireframes were created with balasamiq
+
+- Readme document is heavily influenced from Code institute guidance as well as Stephen Seagrave video for MS1 preparation that is posted in slack.
+
+
+
+## Acknowledgements
+
+- I would like to Acknowledge Excellence Ilesanmi for his review on the project and giving feedback and changes to be made.
+- Stephen Seagrave for his MS1 video.
+- Tutor support
+
+
+
+
+**This project is for educational use only and was created for the Code Institute Module of User Centric front end development**
+
+**Created by Murthy Valavala**
