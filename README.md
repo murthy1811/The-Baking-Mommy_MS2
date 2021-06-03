@@ -160,6 +160,8 @@ The entire code is checked in validators and errors identified are solved and ex
 
 Browsers tested are Microsoft Edge, and Google Chrome.
 
+All user stories are considered and testing is done as per the need.
+
 ### Implementation
 
 Plan is to test the site based on user stories. If the user stories are working as per the intention on all devices , then the testing is 

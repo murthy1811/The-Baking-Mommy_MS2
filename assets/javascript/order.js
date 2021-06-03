@@ -93,29 +93,28 @@ function sendMail(contactForm){
 /* --------------------------------------------------------------------------------JS for selecting cake */
 
 $('#fruit-cake-choice').prop('disabled', true);
-
-document.getElementById("tickthis").addEventListener("click", enablelist);
-
-function enablelist(){
-    $('#fruit-cake-choice').prop('disabled', false);
-    
-}
-
-
 $('#cream-cake-choice').prop('disabled', true);
-
-document.getElementById("tickthis2").addEventListener("click", enablelist2);
-
-function enablelist2(){
-    $('#cream-cake-choice').prop('disabled', false);
-}
-
 $('#theme-choice').prop('disabled', true);
 
-document.getElementById("tickthis3").addEventListener("click", enablelist3);
+function toggleEnable(id) {
+   var textbox = document.getElementById(id);
+   
+   if (textbox.disabled) {     
+       document.getElementById(id).disabled = false;
+       document.getElementById(id).addEventListener('input', function () {
+       let selectedValue1 = document.getElementById('fruit-cake-choice').value;
+       let selectedValue2 = document.getElementById('cream-cake-choice').value;
+       let selectedValue3 = document.getElementById('theme-choice').value;
+       document.getElementById('newpara').innerHTML = `Thank you for chosing the ${selectedValue1} ${selectedValue2} ${selectedValue3} . Please fill out the form to the next. We will reach you
+                                and
+                                agree on what you want` ;
+});
 
-function enablelist3(){
-    $('#theme-choice').prop('disabled', false);
+       
+      } else {
+       document.getElementById(id).disabled = true;
+       document.getElementById(id).value= "";
+     }     
 }
 
 
@@ -125,21 +124,20 @@ function enablelist3(){
 //    $('#newpara').hide();   
 // })
 
-
     // var element_input = document.getElementById('fruit-cake-choice');
     // var element_datalist = document.getElementById('fruit-cake-type');
     // var opSelected = element_datalist.querySelector(`[value="${element_input.value}"]`);
-    // var id = opSelected.getAttribute('data-value');
+    // var selectedValue = opSelected.getAttribute(data-value);
 
-let fruitcake = document.getElementById('fruit-cake-choice').value;
-let creamcake = document.getElementById('cream-cake-choice').value;
-let theme=document.getElementById('theme-choice').value;
+// let fruitcake = document.getElementById('fruit-cake-choice').value;
+// let creamcake = document.getElementById('cream-cake-choice').value;
+// let theme=document.getElementById('theme-choice').value;
 
-document.getElementById('fruit-cake-choice').addEventListener('input', function () {
-  document.getElementById('newpara').innerHTML = `Thank you for chosing the ${fruitcake} - ${creamcake} with ${theme}. Please fill out the form to the next. We will reach you
-                                and
-                                agree on what you want` ;
-});
+// document.getElementById('fruit-cake-choice').addEventListener('input', function () {
+//   document.getElementById('newpara').innerHTML = `Thank you for chosing the ${opSelected} - ${creamcake} with ${theme}. Please fill out the form to the next. We will reach you
+//                                 and
+//                                 agree on what you want` ;
+// });
 
   
 
