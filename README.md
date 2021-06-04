@@ -144,6 +144,7 @@ confirmation should be must for the user to understand after the feedback is don
 - Google Light house for audits
 - [JQuery](https://jquery.com) The project uses **JQuery** to simplify DOM manipulation.
 - EmailJS
+- Sweetalert2 Github
 
 
 # Testing
@@ -247,6 +248,8 @@ To work on the project code within a local IDE such as VSCode, Pycharm etc:
 
 7. Press Enter. Your local clone will be created.
 
+        How to use your own key to google maps API and EmailJS : (SHOULD BE UPDATED)
+
 ## Bugs
 
 1. First hurdle in developing this site came to me to fit in the logo of vastra gotaland. The image is unable to adjust to the responsive design
@@ -287,29 +290,29 @@ To work on the project code within a local IDE such as VSCode, Pycharm etc:
 
 ## Credits
 
-- Main logo( vastra-gotaland-logo.jpeg) of vastra gotaland regionen is taken from their original website and Västra Götaland Regionen is the rightful owner for the logo
-and I have used their logo only for educational purposes for my Dipoma at Code Institute.
+- Main logo is made in www.freelogodesign.org. Used the templates available in it
 
-- Links used in Press page were from WHO website and thelocal.se 
+- Image Credits
+    Carousel images
+        pic1 Photo by Diana Akhmetianova from Pexels
+        pic2 Photo by cottonbro from Pexels
+        pic3 Photo by ROMAN ODINTSOV from Pexels
+        pic4 Photo by Lisa from Pexels
+ 
+    Assortment pictures on Main page
+        infopic1 Photo by Valeria Boltneva from Pexels  
+        infopic2 Photo by Kristina Paukshtite from Pexels  
+        infopic3 Photo by Vlada Karpovich from Pexels 
 
-- All my images that were used during the development of this site were as below with credits.
+    select/unselect images on order pages
 
-    1.heroimage.jpg
+        selectpic1 Image by RitaE from Pixabay 
+        selectpic2 Image by Couleur from Pixabay 
+        selectpic3 Image by Farrukh Rasool from Pixabay
 
-     coronavirus-4914026_1920_Image by <a>href=httpspixabay.comuserstumisu-148124utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4914026Tumisua from a href=httpspixabay.comutm_source=li
-      </a> 
+    Order form background image
 
-    2.corono-vaccine.jpg
-
-     pexels-nataliya-vaitkevich-5863400_Photo by Nataliya Vaitkevich from Pexels
-
-    3.coronavirus-vaccine.jpg
-
-    <a href='https://www.freepik.com/photos/cartoon'>Cartoon photo created by crowf - www.freepik.com</a>
-
-    4.vaccine-bottle.jpg
-
-    vaccine-5926664_1920_Image by <a>href=httpspixabay.comuserstorstensimon-5039407utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5926664torstensimona from a href=httpspixabay.comutm_</a>
+        formpic1 - Photo by Deva Williamson on Unsplash 
 
    
 - Fontawesome was used for the favicions throughout the page.
@@ -317,25 +320,38 @@ and I have used their logo only for educational purposes for my Dipoma at Code I
     https://fontawesome.com/
 
 
-- Bootstrap is used thorugh out the code specifically to define the columns, and navbar menu.
+- Bootstrap is used for carousel images, navbar toggle icon, feedback questionaire for turning red to green. 
 
-- https://stackoverflow.com/ is very helpful in answering various questions popped up while making the code. 
+- https://stackoverflow.com/ is very helpful in answering various questions popped up while making the code. Code adapted from the commments by various users.
+  some of the users were given credit below although the code is not exactly taken.
 
-- Original wireframes were created with balasamiq
+        - select/unselect javascript in order page – user Aashish 
+        - subscribe button disable/able in prices page - user Erik Palakovich
+
+- While sweetalert is being Implemented, some code is adapated from the website https://code.tutsplus.com/tutorials/creating-pretty-popup-messages-using-sweetalert2--cms-30662
+
+- While the error - sweetalert function works eevn when the form is not filled, is being fixed, code from the user comments on the site
+   https://joomla.stackexchange.com/questions/4614/make-submit-button-inactive-until-fields-have-been-filled  answer by user johanpw
+
+- Star rating on the feedback page idea and code is adapted from https://www.markuptag.com/feedback-form-with-star-rating-html/
+
+- EmailJS library is used for emailing on order form and feedabck form
+
+- https://css-tricks.com/ is helpful in figuring out styling issues.
+
+- Original wireframes were created with https://www.figma.com/wireframe-tool/
 
 - Readme document is heavily influenced from Code institute guidance as well as Stephen Seagrave video for MS1 preparation that is posted in slack.
-
 
 
 ## Acknowledgements
 
 - I would like to Acknowledge Excellence Ilesanmi for his review on the project and giving feedback and changes to be made.
-- Stephen Seagrave for his MS1 video.
 - Tutor support
 
 
 
 
-**This project is for educational use only and was created for the Code Institute Module of User Centric front end development**
+**This project is for educational use only and was created for the Code Institute Module of interactive front end development**
 
 **Created by Murthy Valavala**
