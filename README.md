@@ -314,13 +314,14 @@ To work on the project code within a local IDE such as VSCode, Pycharm etc:
 
         formpic1 - Photo by Deva Williamson on Unsplash 
 
+    User pics in index page are from family and friends. Used with their permission.
    
 - Fontawesome was used for the favicions throughout the page.
 
     https://fontawesome.com/
 
 
-- Bootstrap is used for carousel images, navbar toggle icon, feedback questionaire for turning red to green. 
+- Bootstrap is used for carousel images, navbar toggle icon, , user reviews, feedback questionaire for turning red to green. 
 
 - https://stackoverflow.com/ is very helpful in answering various questions popped up while making the code. Code adapted from the commments by various users.
   some of the users were given credit below although the code is not exactly taken.
@@ -335,7 +336,7 @@ To work on the project code within a local IDE such as VSCode, Pycharm etc:
 
 - Star rating on the feedback page idea and code is adapted from https://www.markuptag.com/feedback-form-with-star-rating-html/
 
-- EmailJS library is used for emailing on order form and feedabck form
+- EmailJS library is used for emailing on order form and feedback form
 
 - https://css-tricks.com/ is helpful in figuring out styling issues.
 
