@@ -295,7 +295,7 @@ To work on the project code within a local IDE such as VSCode, Pycharm etc:
 - Image Credits
     Carousel images
         pic1 Photo by Diana Akhmetianova from Pexels
-        pic2 Photo by cottonbro from Pexels
+        pic2 Photo by Irina Edilbaeva from Pexels
         pic3 Photo by ROMAN ODINTSOV from Pexels
         pic4 Photo by Lisa from Pexels
  

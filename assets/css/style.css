@@ -88,7 +88,7 @@
 
 .pic2 h5{
     font-size: 3rem;
-    color: rgb(150, 14, 241);
+    color: rgb(247, 55, 55);
     padding-bottom: 200px;
 }
 
@@ -563,19 +563,19 @@ div#map {
 
  .cakeprice {
      min-width: 300px;
-     background-color: #67696d;
+     background-color: #FFC8DD;
      border-radius: 20px;
      text-align: center;
      font-family: Reggae One, sans-serif;
      margin: 125px;
-     color: aqua;
+     color: brown;
      padding: 20px;
      min-height: 200px;
  }
 
  .cakeprice p{
      font-size: 20px;
-     color: aqua;
+     color: brown;
  }
 
  .payment{
