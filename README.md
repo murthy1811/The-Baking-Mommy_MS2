@@ -85,29 +85,29 @@ confirmation should be must for the user to understand after the feedback is don
 
 #### Wireframes (SHOULD BE UPDATED)
 
-[Main page Mobile wireframe](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/wireframe/Milestone%201_mobile%20wireframe.png)
+[Index page Mobile wireframe](https://github.com/murthy1811/The-Baking-Mommy_MS2/blob/master/assets/images/wireframes/index-mobile.jpg)
 
-[Main page Desktop wireframe](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/wireframe/Milestone%201_Desktop%20wireframe.png)
+[Index page Desktop wireframe](https://github.com/murthy1811/The-Baking-Mommy_MS2/blob/master/assets/images/wireframes/index-desktop.jpg)
 
-[Main page Tablet wireframe](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/wireframe/Milestone%201_Tablet%20Wireframe.png)
+[Index page Tablet wireframe](https://github.com/murthy1811/The-Baking-Mommy_MS2/blob/master/assets/images/wireframes/index-tablet.jpg)
 
-[Register page Mobile wireframe](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/wireframe/Milestone%201_mobile%20%20wireframe%20_registration%20page.png)
+[Order page Mobile wireframe](https://github.com/murthy1811/The-Baking-Mommy_MS2/blob/master/assets/images/wireframes/order-mobile.jpg)
 
-[Register page Desktop wireframe](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/wireframe/Milestone%201_Desktop%20wireframe%20_registration%20page.png)
+[Order page Desktop wireframe](https://github.com/murthy1811/The-Baking-Mommy_MS2/blob/master/assets/images/wireframes/order-desktop.jpg)
 
-[Register page Tablet wireframe](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/wireframe/Milestone%201_Tab%20wireframe%20_registration%20page.png)
+[Order page Tablet wireframe](https://github.com/murthy1811/The-Baking-Mommy_MS2/blob/master/assets/images/wireframes/order-tablet.jpg)
 
-[Contact page Mobile wireframe](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/wireframe/Milestone%201_mobile%20%20wireframe%20_contact%20page.png)
+[Prices page Mobile wireframe](https://github.com/murthy1811/The-Baking-Mommy_MS2/blob/master/assets/images/wireframes/prices-mobile.jpg)
 
-[Contact page Desktop wireframe](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/wireframe/Milestone%201_Desktop%20wireframe%20_contact%20page.png)
+[Prices page Desktop wireframe](https://github.com/murthy1811/The-Baking-Mommy_MS2/blob/master/assets/images/wireframes/prices-desktop.jpg)
 
-[Contact page Tablet wireframe](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/wireframe/Milestone%201_Tab%20wireframe%20_contact%20page.png)
+[Prices page Tablet wireframe](https://github.com/murthy1811/The-Baking-Mommy_MS2/blob/master/assets/images/wireframes/prices-tablet.jpg)
 
-[Press page Mobile wireframe](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/wireframe/Milestone%201_mobile%20%20wireframe%20_press%20info%20page.png)
+[Feedback page Mobile wireframe](https://github.com/murthy1811/The-Baking-Mommy_MS2/blob/master/assets/images/wireframes/feedback-mobile.jpg)
 
-[Press page Desktop wireframe](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/wireframe/Milestone%201_Desktop%20wireframe%20_press%20info%20page.png)
+[Feedback page Desktop wireframe](https://github.com/murthy1811/The-Baking-Mommy_MS2/blob/master/assets/images/wireframes/feedback-desktop.jpg)
 
-[Press page Tablet wireframe](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/wireframe/Milestone%201_Tablet%20wireframe%20_press%20info%20page.png)
+[Feedback Tablet wireframe](https://github.com/murthy1811/The-Baking-Mommy_MS2/blob/master/assets/images/wireframes/feedback-tablet.jpg)
 
 
 
@@ -205,7 +205,7 @@ Final score after optimization like resizing images, adding rel=noopener attribu
 Performance : 89% , Accesibility : 93%, Best practices :93% SEO: 100% . Final score preview [here](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/snapshots/Final%20light%20house%20score.PNG).
 
 
-### Deployment
+### Deployment (TO BE UPDATED)
 
 The current deployment of this project is done using github.
 
