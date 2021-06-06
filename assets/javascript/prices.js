@@ -20,20 +20,19 @@ toValidate.change(function () {
     } else {
         jQuery("#subscribe").prop('disabled', true);
     }
-    
+
 });
 
 
 
-    document.getElementById("subscribe").addEventListener("click", sweetalert);
-    function sweetalert(){
+document.getElementById("subscribe").addEventListener("click", sweetalert);
+function sweetalert() {
 
     Swal.fire("Thank you for the subscription", "Happy Eating!");
     let clear = document.getElementById('mailbox');
-    clear.value='';
+    clear.value = '';
     $('#subscribe').prop('disabled', true);
-               
-    return false;
-     }
 
-  
+    return false;
+}
+
