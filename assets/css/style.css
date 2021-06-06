@@ -87,25 +87,25 @@
 
 .pic1 h5{
     font-size: 3rem;
-    color: aqua;
+    color: white;
     padding-bottom: 250px;
 }
 
 .pic2 h5{
     font-size: 3rem;
-    color: rgb(247, 55, 55);
+    color: white;
     padding-bottom: 200px;
 }
 
 .pic3 h5{
     font-size: 3rem;
-    color: brown;
+    color: white;
     padding-bottom: 200px;
 }
 
 .pic4 h5{
     font-size: 3rem;
-    color: rgb(51, 49, 75);
+    color: white;
     padding-bottom: 200px;
 }
 
@@ -123,28 +123,28 @@
 
     .pic1 h5{
     font-size: 2rem;
-    color: aqua;
+    color: #ee37b7;
     padding-bottom: 120px;
     font-weight: 200;
 }
 
 .pic2 h5{
     font-size: 2rem;
-    color: rgb(241, 14, 173);
+    color: #ee37b7;
     padding-bottom: 50px;
     font-weight: 200;
 }
 
 .pic3 h5{
     font-size: 2rem;
-   color: brown;
+   color: #ee37b7;
     padding-bottom: 50px;
     font-weight: 200;
 }
 
 .pic4 h5{
     font-size: 2rem;
-    color: rgb(51, 49, 75);
+    color: #ee37b7;
     padding-bottom: 50px;
     font-weight: 200;
 }
