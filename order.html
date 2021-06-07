@@ -70,27 +70,31 @@
                 <div class="col-12 col-lg-8">
 
                     <div class="row guidetext">
-                    <p><span> Please select the cake from below or enter directly what you wish for in the oder form. Let's talk and we can try to help you!! </span></p>
-                </div>
+                        <div class="col-12">
+                            <p>Please select the cake from below or enter directly what you wish for in the Order form.
+                                <br>
+                                Let's talk and we can try to help you!!</p>
+                        </div>
+                    </div>
 
                     <div class="row">
                         <div class="col-12 col-md-4 select">
-                            <div class="selectimage" id="tickthis" onclick="toggleEnable('fruit-cake-choice')" >
-                                <img src="assets/images/selectpic1.jpg" alt="fruit cake select button" 
+                            <div class="selectimage" id="tickthis" onclick="toggleEnable('fruit-cake-choice')">
+                                <img src="assets/images/selectpic1.jpg" alt="fruit cake select button"
                                     aria-hidden="true" height="250px" width="250px" />
-                                
+
                             </div>
 
                             <div>
                                 <label for="fruit-cake-choice"> Select Fruit Cake</label>
                                 <input list="fruit-cake-type" id="fruit-cake-choice" name="fruit-cake-choice"
-                                    placeholder="select fruit cake" type="text" >
+                                    placeholder="select fruit cake" type="text">
                                 <datalist id="fruit-cake-type">
                                     <!-- fruitcakelist(); -->
-                                    <option value="Grape topping" data-value="1" >
+                                    <option value="Grape topping" data-value="1">
                                     <option value="Oranges" data-value="2">
                                     <option value="Strawberry" data-value="3">
-                                    <option value="Pineapple"data-value="4">
+                                    <option value="Pineapple" data-value="4">
 
                                 </datalist>
                             </div>
@@ -101,7 +105,7 @@
                             <div class="selectimage" id="tickthis2" onclick="toggleEnable('cream-cake-choice')">
                                 <img src="assets/images/selectpic2.jpg" alt="cream cake select button"
                                     aria-hidden="true" height="250px" width="250px">
-                                   
+
                             </div>
 
                             <div>
@@ -124,7 +128,7 @@
                             <div class="selectimage" id="tickthis3" onclick="toggleEnable('theme-choice')">
                                 <img src="assets/images/selectpic3.jpg" alt="theme select button" aria-hidden="true"
                                     height="250px" width="250px">
-                                    
+
                             </div>
 
                             <div>
@@ -145,7 +149,8 @@
 
                     <div class="row displaymessage">
                         <div>
-                            <p id="newpara">Thank you for chosing "_______". Please fill out the form to the next. We will reach you
+                            <p id="newpara">Thank you for chosing "_______". Please fill out the form to the next. We
+                                will reach you
                                 and agree on what you want</p>
                         </div>
                     </div>
