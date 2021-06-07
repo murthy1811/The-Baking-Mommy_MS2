@@ -87,25 +87,25 @@
 
 .pic1 h5{
     font-size: 3rem;
-    color: white;
+    color: #ee37b7;
     padding-bottom: 250px;
 }
 
 .pic2 h5{
     font-size: 3rem;
-    color: white;
+    color: #ee37b7;
     padding-bottom: 200px;
 }
 
 .pic3 h5{
     font-size: 3rem;
-    color: white;
+    color: #ee37b7;
     padding-bottom: 200px;
 }
 
 .pic4 h5{
     font-size: 3rem;
-    color: white;
+    color: #ee37b7;
     padding-bottom: 200px;
 }
 
@@ -191,7 +191,7 @@ button{
     margin:0px auto;
     font-family:'Architects Daughter', sans-serif; 
     font-size: 25px;
-    color: #bd2130;
+    color: #ee37b7;
     
 }
 
@@ -203,9 +203,9 @@ button{
     text-align: center;
     display: block;
     margin:0px auto;
-    font-family:'Reggae one', sans-serif; 
+    font-family:'Architects Daughter', sans-serif; 
     font-size: 25px;
-    color: rgb(226, 43, 52);
+    color: #ee37b7;
     text-transform: uppercase;
 }
 .listimages img {
