@@ -385,8 +385,7 @@ footer p {
 .select img{
     border-radius: 10px;
     border: solid #e98791;
-    opacity: 0.5;
-   
+    object-fit: cover;  
 }
 
 .select label{
@@ -440,14 +439,6 @@ div#map {
     position: relative;
 }
 
-.clicktext{
-    position: absolute;
-    top: 100px;    
-    left: 50px;
-    right: 50px;
-    font-family: Reggae One, sans-serif;
-    color : purple;
-}
 @media(max-width:576px) {
 
   
