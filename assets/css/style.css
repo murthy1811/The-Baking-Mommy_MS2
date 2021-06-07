@@ -169,7 +169,7 @@ button{
     text-transform: uppercase;
     height: 50px;
     display: block;
-    width: 40%;
+    width: auto;
     letter-spacing: 1.5px;
     margin-bottom: 20px;
     border-radius: 5px;
@@ -547,13 +547,14 @@ div#map {
 
 #ordernow {
     margin-top: 25px;
-    background-color: brown;
+    background-color: #17a2b8;
     text-transform: uppercase;
     height: 50px;
     width: 175px;
     letter-spacing: 2px;
     text-align: center;
     margin-bottom: 40px;
+    color: white;
 }
 
 

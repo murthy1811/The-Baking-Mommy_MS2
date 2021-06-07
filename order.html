@@ -79,7 +79,7 @@
 
                     <div class="row">
                         <div class="col-12 col-md-4 select">
-                            <div class="selectimage" id="tickthis" onclick="toggleEnable('fruit-cake-choice')">
+                            <div class="selectimage" id="tickthis" >
                                 <img src="assets/images/selectpic1.jpg" alt="fruit cake select button"
                                     aria-hidden="true" height="250px" width="250px" />
 
@@ -87,7 +87,7 @@
 
                             <div>
                                 <div class="selectbtn">
-                                    <button> Select Fruit Cake</button>
+                                    <button onclick="toggleEnable('fruit-cake-choice')"> Select Fruit Cake</button>
                                 </div>
                                 <input list="fruit-cake-type" id="fruit-cake-choice" name="fruit-cake-choice"
                                     placeholder="select fruit cake" type="text">
@@ -104,7 +104,7 @@
 
 
                         <div class="select col-12 col-md-4">
-                            <div class="selectimage" id="tickthis2" onclick="toggleEnable('cream-cake-choice')">
+                            <div class="selectimage" id="tickthis2">
                                 <img src="assets/images/selectpic2.jpg" alt="cream cake select button"
                                     aria-hidden="true" height="250px" width="250px">
 
@@ -112,7 +112,7 @@
 
                             <div>
                                 <div class="selectbtn">
-                                    <button> Select Cream Cake</button>
+                                    <button  onclick="toggleEnable('cream-cake-choice')"> Select Cream Cake</button>
                                 </div>
                                 <input list="cream-cake-type" id="cream-cake-choice" name="cream-cake-choice"
                                     placeholder="select cream cake" type="text" />
@@ -129,7 +129,7 @@
 
 
                         <div class="select col-12 col-md-4">
-                            <div class="selectimage" id="tickthis3" onclick="toggleEnable('theme-choice')">
+                            <div class="selectimage" id="tickthis3" >
                                 <img src="assets/images/selectpic3.jpg" alt="theme select button" aria-hidden="true"
                                     height="250px" width="250px">
 
@@ -137,7 +137,7 @@
 
                             <div>
                                 <div class="selectbtn">
-                                    <button for="theme-choice"> Select Theme Cake</button>
+                                    <button onclick="toggleEnable('theme-choice')"> Select Theme Cake</button>
                                 </div>
                                 <input list="theme-type" id="theme-choice" name="theme-choice"
                                     placeholder="select theme" type="text" required>
