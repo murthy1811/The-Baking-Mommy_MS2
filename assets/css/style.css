@@ -232,8 +232,15 @@ button{
 .listimages img {
         height: 250px;
         width: 75%;
+        padding-top: 50px;
 }
 
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 576px) {
+
+    .listimages img {
+       padding-top: 50px;
 }
 
 /* ---------------------------------------------------------------------------User Comments */
@@ -297,10 +304,13 @@ button{
       
   }
 
+  #aboutus {
+      padding-left: 90px;
+  }
   footer p{
       font-family: 'Reggae one', sans-serif;
       color: rgb(241, 176, 129);
-      
+      padding-left: 150px;
   }
 
   footer{
@@ -322,12 +332,32 @@ button{
       text-decoration: none;
       font-family: 'Reggae one', sans-serif;
       color: rgb(241, 176, 129);
-      padding: 10px;
-      
+      padding: 20px 10px 10px 10px;
+           
   }
 
-  
+  @media(max-width:576px) {
 
+footer p {
+    padding-left: 0px;
+}
+
+#aboutus{
+    padding-left: 0px;
+}
+  }
+
+@media only screen and (max-width: 900px) and (min-width: 576px) {
+  
+footer p {
+    padding-left: 0px;
+}
+
+#aboutus{
+    padding-left: 0px;
+}
+
+}
   /* -----------------------------------------------------------------------------------------ORDER PAGE */
 
   /* --------------------------------------------------------------Select images, map */
