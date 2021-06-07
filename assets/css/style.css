@@ -211,7 +211,7 @@ button{
 .listimages img {
         object-fit:cover;
         height: 400px;
-        width: 50%;
+        width: 70%;
         float: none;
         border-radius: 15px;
         display: block;
@@ -237,6 +237,15 @@ button{
 }
 
 /* ---------------------------------------------------------------------------User Comments */
+
+.userheading h4{
+    
+    font-family: Reggae one, sans-serif;
+    text-align: center;
+    color: #ee37b7;
+    text-transform: uppercase;
+    padding-bottom: 60px;
+}
 
 .userquotes{
     padding-top: 100px;
@@ -285,11 +294,13 @@ button{
       text-align: center;
       padding-top: 25px;
       color: rgb(241, 176, 129);
+      
   }
 
   footer p{
       font-family: 'Reggae one', sans-serif;
       color: rgb(241, 176, 129);
+      
   }
 
   footer{
@@ -312,6 +323,7 @@ button{
       font-family: 'Reggae one', sans-serif;
       color: rgb(241, 176, 129);
       padding: 10px;
+      
   }
 
   
