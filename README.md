@@ -306,9 +306,9 @@ To work on the project code within a local IDE such as VSCode, Pycharm etc:
 
     select/unselect images on order pages
 
-        selectpic1 Image by RitaE from Pixabay 
-        selectpic2 Image by Couleur from Pixabay 
-        selectpic3 Image by Farrukh Rasool from Pixabay
+        selectpic1 Photo by Diana Akhmetianova on Unsplash  selectpic1 
+        selectpic2 Photo by Estefanía Escalante Fernández on Unsplash 
+        selectpic3 Photo by Wedding Dreamz on Unsplash
 
     Order form background image
 
