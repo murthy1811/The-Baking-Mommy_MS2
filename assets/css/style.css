@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Reggae+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&family=Reggae+One&display=swap');
 
 /* ---------------------------------------------------------------------------header */
 
@@ -81,7 +81,7 @@
 }
 
 .carousel-caption{
-    font-family: 'Architects Daughter', sans-serif;    
+    font-family: 'Merienda', sans-serif;    
     text-align: center;
 }
 
@@ -189,7 +189,7 @@ button{
     text-align: center;
     display: block;
     margin:0px auto;
-    font-family:'Architects Daughter', sans-serif; 
+    font-family:'Merienda', sans-serif; 
     font-size: 25px;
     color: #ee37b7;
     
@@ -203,7 +203,7 @@ button{
     text-align: center;
     display: block;
     margin:0px auto;
-    font-family:'Architects Daughter', sans-serif; 
+    font-family:'Merienda', sans-serif; 
     font-size: 25px;
     color: #ee37b7;
     text-transform: uppercase;
@@ -249,9 +249,9 @@ button{
 }
 
 .blockquote {
-   font-family: 'Architects Daughter', sans-serif;   
-    color: #bd2130;
-    font-weight:400;
+   font-family: 'Merienda', sans-serif;   
+    color: #ee37b7;
+    font-weight:200;
    }
 
 
