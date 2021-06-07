@@ -386,15 +386,18 @@ footer p {
     border-radius: 10px;
     border: solid #e98791;
     object-fit: cover;  
+
 }
 
-.select label{
-    padding-top: 25px;
+.select button{
     font-family: 'Reggae One', sans-serif;
-    color: #ee37b7;
+    color: white;
     font-size: 18px;
-    font-weight: 600;
     display: block;
+    text-align: center;
+    width: auto;
+    margin: auto;
+    background: #17a2b8;
 }
 
 
@@ -436,6 +439,11 @@ div#map {
 
 .selectimage{
     position: relative;
+    padding-bottom: 25px;
+}
+
+.selectbtn{
+    padding-bottom: 20px;
 }
 
 @media(max-width:576px) {
