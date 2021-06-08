@@ -806,7 +806,7 @@ form .submit-rating:hover {
     padding-top: 20px;
     font-family: Reggae One, sans-serif;
     text-align: left;
-    color: #795548;
+    color: #ee37b7;
 }
 
 .question{
@@ -821,7 +821,9 @@ form .submit-rating:hover {
     text-align: center;
     margin: auto;
     margin-bottom: 25px;
-    
+    width: auto;
+    background: #17a2b8;
+    color: white;
 }
 
 .form-check-input{
@@ -851,4 +853,16 @@ form .submit-rating:hover {
     font-size: 30px;
     float: left;
 }
+
+#choice{
+    width: 280px;
+}
+
+.form-check-label{
+    margin-left: 20px;
+    margin-bottom: 5px;
+    display: block;
+    
+}
+
 }
