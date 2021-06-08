@@ -528,9 +528,7 @@ rgba(214, 162, 201, 0.73)),url("../images/formpic1.jpg");
 
 .order input {    
     display: inline-block;
-    width: 250px;
-    text-align: center;
-    
+    width: 250px;    
 }
 
 .aligntop textarea {
