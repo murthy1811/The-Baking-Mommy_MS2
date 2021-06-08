@@ -32,6 +32,17 @@ function initMap() {
     new MarkerClusterer(map, markers, {
         imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
     });
+
+    var infowindow = new google.maps.InfoWindow({
+      content: "The first marker"
+   });
+
+   google.maps.event.addListener(markers, 'click', function() {
+      infowindow.open(map,markers);
+   });
+
+
+  
 }
 
 
