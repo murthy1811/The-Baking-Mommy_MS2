@@ -125,6 +125,7 @@ function sendMail(contactForm) {
             },
             function (error) {
                 console.log("FAILED", error);
+                Swal.fire("Ooops! The order did not go through", "Please Try Again!");
             },
 
         );

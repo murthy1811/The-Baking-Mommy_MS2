@@ -736,7 +736,7 @@ rgba(214, 162, 201, 0.73)),url("../images/formpic1.jpg");
     padding: 10px;
     float: right;
     font-size: 44px;
-    color: #eee;
+    color: rgb(211, 204, 204);
 }
 .star-rating input:not(:checked) ~ label:hover,
 .star-rating input:not(:checked) ~ label:hover ~ label {
