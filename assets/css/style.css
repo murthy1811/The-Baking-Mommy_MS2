@@ -573,7 +573,7 @@ rgba(214, 162, 201, 0.73)),url("../images/formpic1.jpg");
     }
     .aligntop label {
         float: left;
-        padding-left: 20px;
+        padding-left: 30px;
         margin: 0;
     }
     .aligntop textarea {
@@ -601,11 +601,22 @@ rgba(214, 162, 201, 0.73)),url("../images/formpic1.jpg");
         padding-left: 0px;
         width: 185px;
         text-align: justify;
+       
+        display: inline-block;
     }
 
     .aligntop label{
-        text-align: left;
+       
+        padding-left: 20px;
+        float: left;
+        width: 120px;
     }
+
+     .aligntop textarea {
+        margin-left: 25px;
+    }
+
+   
 }
 
 
