@@ -1,140 +1,187 @@
+<div align="center"> (*****************************************udpate here)
+    <a href="https://johnny-morgan.github.io/memory-blocks/" target="_blank"><img src="assets/images/screenshot_home.png" alt="memory blocks logo"></a>
+    <h2>
+        The Baking Mommy is a website for the cake lovers. All cake lovers should be able to order the cakes they like and give feedback
+    </h2>
+    <h3><a href="https://johnny-morgan.github.io/memory-blocks/" target="_blank">Click here</a> to view the site on GitHub pages.</h3>
+</div>
 
-# The Baking Mommy 
+## Table of Contents
 
-This website is designed for an young enterpreneur and a home maker, to establish her business to sell the cakes within the Gothenburg city of Sweden.
-Target audience are all the users who are interested in ordering the cakes online to celebrate their happy moments.
-
-This project should guide the user smoothly to check out the assortment of cakes available, navigate easily to make an order, check out the prices and as well give the feedback
-on the overall experience. User should be aware of each step what happens when they order the cake
-
-## Showcase
-
-A deployed link to the website can be found [here](https://murthy1811.github.io/Milestone-project-1/). (NEED TO UPDATE)
-
-Preview of the site is found [here](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/snapshots/landing-page.JPG).  (NEED TO UPDATE)
-
-
-
-# UX
-
-## Organisational stories
-
-The enterpreneur, labelled "The Baking Mommy" wants 
-
-1. To reach all the cake lovers in Gothenburg city.
-2. To give clear information of her assortment of cakes.
-3. To take orders Online through the website
-4. To give out clear information on what happens when an user orders cake
-5. To make it easy to navigate and make an order by user.
-6. To evoke interest in the user to make an order, and also to revisit for new orders.
-
-## User stories
-
-As an User, I should be able to
-
-1. find information on the type of cakes available
-2. Understand or read the other users experience with the cake
-3. Easily make an order for an interested cake
-4. Get confirmation once I make an order or give feedback
-5. check out the social media of the organisation and can reach them through it
-6. associate with the organisation to make future purchases.
-7. Get the details of the prices
-
-## Developer and Business stories
-
-* Clearly planned programming is done that leaves developers to improve the application further, easily and flexibly.
-* A project which has lot of scope to make improvements further in the future.
-
-## Strategy
-
-### User Needs.
-
-User should access the website on all devices and should be easy enough to navigate and get all the info needed
-
-#### Technical limitations
-
-Current project is interactive website. There is lot of scope to improve the content and features. Should be able to improve the cake assortment section, and cake selection section for 
-easy interaction. The project is open to arrange payment section. The website can be built to give confirmation to user after order, through sms and email.
-
-Current project uses HTML, CSS, Javascript, JQuery. Libraries like Bootstrap, EmailJS, Google maps API are used.
+1. [**Overview**](#overview)
+2. [**User Experience**](#user-experience)
+    - [**User Stories**](#user-stories)
+    - [**Wireframes**](#wireframes)
+    - [**Design**](#design)
+3. [**Features**](#features)
+    - [**Existing Features**](#existing-features)
+    - [**Homepage Features**](#homepage-features)
+    - [**Orderpage Features**](#orderpage-features)
+    - [**Pricespage Features**](#pricespage-features)
+    - [**Feedbackpage Features**](#feedbackpage-features)
+    - [**Future Features**](#future-features)
+4. [**Technologies Used**](#technologies-used)
+5. [**Testing**](#testing)
+6. [**Deployment**](#deployment)
+    - [**Deploying to GitHub Pages**](#deploying-to-github-pages)
+    - [**Forking the GitHub Repository**](#forking-the-github-repository)
+    - [**Cloning the GitHub Repository**](#cloning-the-github-repository)
+7. [**Credits**](#credits)
+8. [**Acknowledgements**](#acknowledgements)
 
 
-## Scope
+## Overview
 
-To encourage user to make an order for cake. To develop a curiosity in user to bring back to the website.  It is important to get all social media links function properly 
-and to reach wider audience, everything should be smoother and simpler. To give out the clear information needed
+The fundamental objective of this website is to facilitate the user to go through the cakes available. User should be able to select a cake , make an order. Also, User 
+should be able to give feedback on the cake, and overall experience.
 
-## Structure
+Business Goals
 
-With a carousel slides, the cake images with intriguing captions, should attract the user to make an order for the cake.
-The Home page should give out the types of cake available with some user reviews. The header page should have a logo and funky fonts for the navigation menu. 
-Small screens should have toggler menu. The footer page should make links for social media. Give some information about 
-the enterpreneur, and also contact to reach in case there are any queries.
+  - Create an attractive website for selling cakes
 
-The Order page should help the user to pick a cake, and understand which cake is ordered through a text. 
-Then the user should be advised to  fill a form . User should be clearly aware that he/she will be contacted for further discussion after the order is made.
-The page should show the maps for locations, where the general delivery will be done in certain times. User should be aware of the hoome delivery costs.
+    - Website welcomes the user with beautiful cakes and attract visually ,therefore bringing out the happy memories associated with cakes and 
+      there by encouraging user to buy a cake for his needs.
 
-Prices page should provide the information on costs of the cake. Also, User should be encouraged to subscribe for the future offers, and recipes, there by
-encouraging user to visit the website back. User should be encouraged to make connection with the social media.
+  - Provide a hassle free ordering experience
 
-Feedback page should encourage the user to fill the questionaire one by one and should facilitate he/she to give a star rating.
-confirmation should be must for the user to understand after the feedback is done.
+    - Easy selection of cake assortments by interacting with the options and make an order with simple details filled in.
+      Clear information provided for the next steps , by reaching the user to agree on the order by both parties, and information on delivery times and areas. 
+      All the forms filled in should be able to give the confirmation to the user, if its a success or error.
 
-## Skeleton
+  - Encourage user to travel and be a part of the organisation's future
 
-#### Wireframes (SHOULD BE UPDATED)
+    - Providing the user a chance to subscribe for offers, and recipes to try out at home. Reach user through email. Facilitate the user to give the feedback
+      on the cake taste and Quality and over all experience. Make a simple star rating to provide feedback.
 
-[Index page Mobile wireframe](https://github.com/murthy1811/The-Baking-Mommy_MS2/blob/master/assets/images/wireframes/index-mobile.jpg)
+Customer goals
 
-[Index page Desktop wireframe](https://github.com/murthy1811/The-Baking-Mommy_MS2/blob/master/assets/images/wireframes/index-desktop.jpg)
+  - An interactive website to buy cakes for the special occasions or in general
 
-[Index page Tablet wireframe](https://github.com/murthy1811/The-Baking-Mommy_MS2/blob/master/assets/images/wireframes/index-tablet.jpg)
+    - Selection of cakes , or a mix of cakes available give user a chance to buy what one wants. 
 
-[Order page Mobile wireframe](https://github.com/murthy1811/The-Baking-Mommy_MS2/blob/master/assets/images/wireframes/order-mobile.jpg)
+  - An easy to navigate website, especially important for older age group users
 
-[Order page Desktop wireframe](https://github.com/murthy1811/The-Baking-Mommy_MS2/blob/master/assets/images/wireframes/order-desktop.jpg)
+    - The website consists of four pages clearly distinguished by the names, Home, order, prices and feedback. The respective names are self explanatory. Home 
+    page provides information on cakes available with eye pleasing images to attract. Order page lets user to select cakes and make an order, and also gives clear information
+    on how the organisation reaches user for agreement and delivery. Prices page gives the costs of cakes, and how the payment should be made. Feedback page lets user to give 
+    ratings on his overall experience. Footer content gives away social media links, contact and a little detail of the organisation.
+    
+ Keep an image here (************************************************************update here)
 
-[Order page Tablet wireframe](https://github.com/murthy1811/The-Baking-Mommy_MS2/blob/master/assets/images/wireframes/order-tablet.jpg)
+ ## User Experience
 
-[Prices page Mobile wireframe](https://github.com/murthy1811/The-Baking-Mommy_MS2/blob/master/assets/images/wireframes/prices-mobile.jpg)
+- ### User Stories
 
-[Prices page Desktop wireframe](https://github.com/murthy1811/The-Baking-Mommy_MS2/blob/master/assets/images/wireframes/prices-desktop.jpg)
+    As an User, I want:
+ 
+    1. Find information on the type of cakes available
+    2. Understand or read the other users experience with the cake
+    3. Easily make an order for an interested cake
+    4. Get confirmation once I make an order or give feedback
+    5. Check out the social media of the organisation and can reach them through it
+    6. Associate with the organisation to make future purchases.
+    7. Get the details of the prices.
+    8. Give proper feedback in different categories and overall experience.
 
-[Prices page Tablet wireframe](https://github.com/murthy1811/The-Baking-Mommy_MS2/blob/master/assets/images/wireframes/prices-tablet.jpg)
+- ### Wireframes
 
-[Feedback page Mobile wireframe](https://github.com/murthy1811/The-Baking-Mommy_MS2/blob/master/assets/images/wireframes/feedback-mobile.jpg)
+    [Index page Mobile wireframe](https://github.com/murthy1811/The-Baking-Mommy_MS2/blob/master/assets/images/wireframes/index-mobile.jpg)
 
-[Feedback page Desktop wireframe](https://github.com/murthy1811/The-Baking-Mommy_MS2/blob/master/assets/images/wireframes/feedback-desktop.jpg)
+    [Index page Desktop wireframe](https://github.com/murthy1811/The-Baking-Mommy_MS2/blob/master/assets/images/wireframes/index-desktop.jpg)
 
-[Feedback Tablet wireframe](https://github.com/murthy1811/The-Baking-Mommy_MS2/blob/master/assets/images/wireframes/feedback-tablet.jpg)
+    [Index page Tablet wireframe](https://github.com/murthy1811/The-Baking-Mommy_MS2/blob/master/assets/images/wireframes/index-tablet.jpg)
+
+    [Order page Mobile wireframe](https://github.com/murthy1811/The-Baking-Mommy_MS2/blob/master/assets/images/wireframes/order-mobile.jpg)
+
+    [Order page Desktop wireframe](https://github.com/murthy1811/The-Baking-Mommy_MS2/blob/master/assets/images/wireframes/order-desktop.jpg)
+
+    [Order page Tablet wireframe](https://github.com/murthy1811/The-Baking-Mommy_MS2/blob/master/assets/images/wireframes/order-tablet.jpg)
+
+    [Prices page Mobile wireframe](https://github.com/murthy1811/The-Baking-Mommy_MS2/blob/master/assets/images/wireframes/prices-mobile.jpg)
+
+    [Prices page Desktop wireframe](https://github.com/murthy1811/The-Baking-Mommy_MS2/blob/master/assets/images/wireframes/prices-desktop.jpg)
+
+    [Prices page Tablet wireframe](https://github.com/murthy1811/The-Baking-Mommy_MS2/blob/master/assets/images/wireframes/prices-tablet.jpg)
+
+    [Feedback page Mobile wireframe](https://github.com/murthy1811/The-Baking-Mommy_MS2/blob/master/assets/images/wireframes/feedback-mobile.jpg)
+
+    [Feedback page Desktop wireframe](https://github.com/murthy1811/The-Baking-Mommy_MS2/blob/master/assets/images/wireframes/feedback-desktop.jpg)
+
+    [Feedback Tablet wireframe](https://github.com/murthy1811/The-Baking-Mommy_MS2/blob/master/assets/images/wireframes/feedback-tablet.jpg)
+
+
+Deviations from the wireframes
+
+  - On the home page, It is decided to change the pattern of the images , add buttons to showcase the assortment with some javascript.
+  otherwise, not much changes are made from wireframes.
+
+
+- ### Design
+
+  - #### Colour Scheme
+
+  I decided to go for a little funky and bold colors , as it should invoke the feeling of fun and party in user. I choose #ee37b7 , a layer of pink, for the main text and content.
+  I kept buttons with basic white text and a background of #17a2b8. I chose footer to be with black background with text in rgb(241, 176, 129), so as to show clear deviation from the 
+  main page 
+
+  - #### Typography
+
+    [Reggae One](https://fonts.googleapis.com/css2?family=Merienda&family=Reggae+One&display=swap) was chosen as the main font for this website with sans-serif as the fallback font.
+    Reggae One is little funky to appeal to the fun aspect of an user. Another funky and stylish font Merienda is used to distinguish soome text from others.
 
 
 
-# Features 
+## Features
 
- . Social media links
- . Toggler menu for small screens
- . Sliding hero images
- . Cake selection interaction
- . Google maps
- . Email alert when an order is made and feedback is filled.
- . subscription encouragement
+### Existing Features
+
+- ### Homepage Features
+
+   1. Navigation bar with indication of which page user is on. Toggle icon for navigation menu for the small screen users.
+   2. Image carousel is implemented , with images moving with few cake quotes, encouraging user to buy cakes.
+   3. Buttons to interact to view the cakes assortment available for sale.
+   4. user stories for the user affirmation
+
+- ### Orderpage Features
+
+   1. User should be able to select if he/her needs fruit cake, cream cake with a theme. User can mix the options, and make an order or write completely new cake in the form
+      A clear text informs the user that they will be reached once the order is made to agree on everything. With selection buttons, text and order form will be automatically 
+      filled to let user know which cake they selected. selection input for cakes will be activated only with clicking select buttons.
+   2. Google Maps API is called to indicate the locations, where the cakes will be delivered.Time and delivery fee are mentioned in text.
+   3. Order form is prefilled with cake selection or user can make a new text. User should fill in mandatory details for the order submit button to get activated.
+   4. Upon submission, either a success or error sweet alert is given for user confirmation
+   5. Email feature is built to receive for the organisation to check when a new order is made.
+
+- ### Pricespage Features
+
+    1. Prices are mentioned clearly for the type and weight of cakes.
+    2. User is encouraged to subscribe for the offers and recipes , so as to keep in touch with organisation. confirmation is provided upon subscription.
+
+- ### Feedbackpage Features
+
+    1. User will be guided clearly to select the needed options, by showing the answers in red and upon responding, the answers turn to green.
+    2. Rating is asked to given on a scale of 1 to 5 with radio buttons.
+    3. Text box is provided for any additional comments for the free user input.
+    4. A clear star rating input is given for providing satisfaction to the user
+    5. Submit button is activated only after everything is filled except the additional text.
+    6. Confirmation is provided to the user upon successful feedback.
+    7. Email feature is built to receive for the organisation to check when a new feedback is given.
 
 
-## Existing Features
+### Future Features
+ 
+The following are elements that could be added to the website in future development:
 
-- Nav bar facilitates the user to naviagte between the pages for Home, order, prices and feedback
-- Navbar in mobile is burger type (toggler icon)
-- Smooth scrolling for better UX.
+- A payment page to go to , after the order is submitted.
+
+- Response email to the user confirming the order they just made.
+
+- An SMS alert to user's mobile once the order is done.
+
+- A live box showcasing the instagram, twitter comments from the various users.
 
 
-## Features Left to Implement
-
-- Email and SMS confirmation to the user after an order is made
-- Payment page can be made, with backend technologies in future
-
-# Technologies Used
+## Technologies Used
 
 - HTML5
 - CSS3
@@ -146,147 +193,43 @@ confirmation should be must for the user to understand after the feedback is don
 - EmailJS
 - Sweetalert2 Github
 
+## Testing  (*******************************************************update here)
 
-# Testing
+The testing data for this project can be found in a separate file called [TESTING.md](https://github.com/Johnny-Morgan/memory-blocks/blob/master/TESTING.md).
 
-### Planning
+## Deployment (*****************************************************update here)
 
-Plan is to test the site manually and using the Google Lighthouse to evaluate the overall performance and chrome devtools to test each layout.
+### Deploying to GitHub Pages
 
-Devices tested for responsive design are iphone5/SE, iphone6/7/8/plus, Ipad, ipadpro, Galaxy S5
+This project was deployed to GitHub Pages using the following process:
 
-Screen testing done for the screens 24" computer screen (1920 x 1080), Laptop 14".
+1. Log in to GitHub and locate the projects [repository](https://github.com/Johnny-Morgan/memory-blocks/).
+2. From the menu locate and click Settings.
+3. Scroll down to the GitHub Pages section.
+4. Click on the drop-down menu under Source and select Master Branch.
+5. Click the Save button.
+6. The site is now published and the [link](https://johnny-morgan.github.io/memory-blocks/) is provided.
 
-The entire code is checked in validators and errors identified are solved and explained in bugs section
+### Forking the GitHub Repository
 
-Browsers tested are Microsoft Edge, and Google Chrome.
+Forking a repository allows you to freely experiment with changes without affecting the original project.
+This project can be forked using the following process:
 
-All user stories are considered and testing is done as per the need.
+1. Log in to GitHub and locate the projects [repository](https://github.com/Johnny-Morgan/memory-blocks/).
+2. At the top right-hand side of the page locate and click on the Fork button.
+3. Further information can be found [here](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo).
 
-### Implementation
+### Cloning the GitHub Repository
 
-Plan is to test the site based on user stories. If the user stories are working as per the intention on all devices , then the testing is 
-successful. Identified challenges and bugs while writing the code and how this is solved is writtten in bugs section.
+1. Log in to GitHub and locate the projects [repository](https://github.com/Johnny-Morgan/memory-blocks/).
+2. Click on the Code button which is located above the list of project files.
+3. Copy the URL link located under the HTTPS tab.
+4. Open a terminal in your IDE.
+5. Change the current working directory to the location where you want the cloned directory.
+6. Type `git clone`, and paste the URL you copied in Step 3.
+7. Press Enter to create your local clone.
+8. Further information can be found [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
-I tested if i can navigate to all required pages to fulfill the user story on all devices using devtools.
-
-I tested if i can able to call and email through the website as per user story. Preview [here](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/snapshots/reach-to-authorities.JPG). 
-
-I tested if the information regarding the vaccine is visible and readable to the user on all devices Preview [here](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/snapshots/information-on-vaccine.JPG).
-
-I made sure on registration page, a simple query is asked if an user is registering for himself or someone else. and is seen in all devices. Preview [here](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/snapshots/register-snap.JPG).
-
-I made sure the information regarding when one can get vaccinated on home page as well as on registration page, which is basically information
- that authorities will reach the user soon after registration.
-
-I made sure all the links regarding the latest news are working on all devices and are opening in new tabs.
-
-I tested all social media links are working on all devices.
-
-I used devtools many times to test the intention, and if it does not work out, I tried to adjust the code in devtools and achieved the 
-intended result by copying the changed code to the html files.
-
-I used Lighthouse to check if the best practices are used or not. Initially I am not sure how to improve the results but tried to 
-use google and made changes in the code to achieve the better results.
-
-### Results 
-
-There were troubles intially to make the navbar toggler icon work in mobiles. I slowly studied the navbar classes functioning in Bootstrap
-and override the classes and adjusted to my requirments and achieved the intended results. Again, many times devtools are a great help.
-
-Noticed several errors of sizing fonts to the responsive design and fixed them by writing responsive design in CSS
-
-Intial score of the site from google light house is as below
-
-Performance : 84% , Accesibility : 93%, Best practices :87% SEO: 90%  Initial score preview [here](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/snapshots/Intial%20light%20house%20score.PNG).
-
-Final score after optimization like resizing images, adding rel=noopener attribute to the a tags with target=_blank, and also added meta description
-
-Performance : 89% , Accesibility : 93%, Best practices :93% SEO: 100% . Final score preview [here](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/snapshots/Final%20light%20house%20score.PNG).
-
-
-### Deployment (TO BE UPDATED)
-
-The current deployment of this project is done using github.
-
-Code is written in gitpod interface. git commands - add, commit, push are of great help to push the code to repository in github.
-
-The deployed website is hosted on github pages for easy viewing without having to clone or fork the repository to view the running website.
-
-To deploy this page to GitHub pages from its GitHub repository, the following steps were taken
-1. Log into GitHub
-2. From the list of repositories on the screen , select murthy1811/Milestone-project-1
-3. From the menu items near the top of the page, select Settings
-4. Scroll down to the GitHub Pages section
-5. Under Source click the drop-down menu labelled None and select Master Branch and save
-6. On Saving, the page will be refreshed and the website is now deployed
-7. Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
-
-### How to run this project locally
-
-To clone this project into Gitpod you will need a Github account. [Create a Github account here] (https://www.github.com)
-
-Follow below steps
-
-1. Install the Gitpod browser extensions for Chrome.
-2. After Installation, restart the browser
-3. Log into Gitpod with your github account
-4. Navigate to the Project GitHub repository
-5. Click the green "Gitpod" button in the top right corner of the repository
-6. This will trigger a new gitpod workspace to be created from the code in the github where you can work locally.
-
-To work on the project code within a local IDE such as VSCode, Pycharm etc:
-
-1. Follow this link to the [Project GitHub repository](
-2. Under the repository name, click "Clone or download"
-3. In the Clone with HTTPs section, copy the clone URL for the repository
-4. In your local IDE open the terminal
-5. Change the current working directory to the location where you want the cloned directory to be made
-6. Type "git clone", and then paste the URL you copied in Step 3.
-
-   git clone https://github.com/murthy1811/Milestone-project-1.git
-
-7. Press Enter. Your local clone will be created.
-
-        How to use your own key to google maps API and EmailJS : (SHOULD BE UPDATED)
-
-## Bugs
-
-1. First hurdle in developing this site came to me to fit in the logo of vastra gotaland. The image is unable to adjust to the responsive design
-   for different devices. Rather than writing more code in html, I choose to take the logo as background and adjust for different screens using
-   bootstrap and called media queries for different screen sizes
-
-2. Further, this gave me trouble in while coding for toggler icon for mobiles. The toggler icon  while expanding, the menu items were floating to 
-   right and overflowed out of screen. By writing the correct code for bootstrap for navbar and adjusting classes I managed to solve this.
-   I used more classes like mr-auto, mr-2 and navbar-collapse class width is adjusted to suit the needs.
-
-3. I noticed after coding, that Home menu is not visible on ipad. Then I wrote the media screen query (max-width: 992px) and (min-width: 768px)  for different screens, which involved
-   ipad as well. This solved the issue.
-
-4. Initially I want to the expanded menu on mobiles to occupy the space above hero image. I could not solve this first. Later, I managed to solve
-    using stackoverflow.com website help by using fixed-top command in html but I noticed that instead of menu occupying above the image, it is clean to push the content down.
-    So, later I kept the original code.
-
-5. Images in info section of the index page, were distorted initially. During the mentor mid project review, a quick suggestion by mentor 
-   solved this. I used object-fit in CSS to solve this.
-
-6. Register button in Info section of index page initially do not have the link to open the register page. With a little search and help from
-   w3schools.com , I updated the code and solved this. onclick="document.location='register.html' is added to the button element
-   
-7. Initially Logo is not linked to index page. A little check upon my code myself and adjusting the divs , and bootstrap classes solved this.
-
-8. When Nav links highlighitng not worked, I noticed class active is missing and corrected in all pages as needed.
-
-9. Register page is not properly aligned in mobile. As per mentor recommendation, I corrected the code by making a single form and keeping all labels
-   and inputs in one form, and wrote the proper CSS code, alignment is achieved in mobile for registration.
-
-10. Added telephone and email links in contact page by href=tel and href=mailto: options as per mentor recommendation
-
-11. In location section, for index and contact pages, intially I used only h4 and h5 elements , and as per mentor recommendation , I changed it to h4 and properly
-
-12. While code is checked in validators, there is an parse error and the same code is written again and deleted the old one. This solved the issue
-
-13. Wrong usage of p element is identified when ul element is placed with in p. This error is fixed.
 
 ## Credits
 
@@ -342,15 +285,13 @@ To work on the project code within a local IDE such as VSCode, Pycharm etc:
 
 - Original wireframes were created with https://www.figma.com/wireframe-tool/
 
-- Readme document is heavily influenced from Code institute guidance as well as Stephen Seagrave video for MS1 preparation that is posted in slack.
+- Readme document is heavily influenced from Code institute guidance as well as Johnny Morgan MS2 submission.
 
 
 ## Acknowledgements
 
 - I would like to Acknowledge Excellence Ilesanmi for his review on the project and giving feedback and changes to be made.
 - Tutor support
-
-
 
 
 **This project is for educational use only and was created for the Code Institute Module of interactive front end development**
