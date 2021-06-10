@@ -121,7 +121,8 @@ Deviations from the wireframes
 
   - #### Colour Scheme
 
-  I decided to go for a little funky and bold colors , as it should invoke the feeling of fun and party in user. I choose #ee37b7 , a layer of pink, for the main text and content.
+   I took help from  https://coolors.co/palettes/trending to decide to color palettes
+  I decided to go for a little funky and bold colors , as it should invoke the feeling of fun and party in user. I choose #bc6c25 , a layer of brown, for the main text and content.
   I kept buttons with basic white text and a background of #17a2b8. I chose footer to be with black background with text in rgb(241, 176, 129), so as to show clear deviation from the 
   main page 
 
