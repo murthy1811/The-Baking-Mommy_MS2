@@ -78,10 +78,11 @@ Customer goals
     2. Understand or read the other users experience with the cake
     3. Easily make an order for an interested cake
     4. Get confirmation once I make an order or give feedback
-    5. Check out the social media of the organisation and can reach them through it
-    6. Associate with the organisation to make future purchases.
-    7. Get the details of the prices.
-    8. Give proper feedback in different categories and overall experience.
+    5. Clear information on delivery areas and time.
+    6. Check out the social media of the organisation and can reach them through it
+    7. Associate with the organisation to make future purchases.
+    8. Get the details of the prices.
+    9. Give proper feedback in different categories and overall experience.
 
 - ### Wireframes
 
