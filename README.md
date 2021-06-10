@@ -231,6 +231,21 @@ This project can be forked using the following process:
 7. Press Enter to create your local clone.
 8. Further information can be found [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
+### Using your own Google maps API key
+
+    Since the API key is restricted to work only the url's I added in my account, google maps function will not work. 
+    You should create your own account in google cloud platform and get the key for maps API. check out the site for instructions [here] (https://developers.google.com/maps/documentation/maps-static/get-api-key)
+
+    Go to the order.html, go to the end of the code. Just before the body closing, look for script tag with maps.googleapis.com, and replace the existing key with your own.
+
+
+### Using your own EmailJS
+   
+    Create your own account in emailJS. Make sure you have the email service for example a, free service like gmail. 
+    Create a template with the variables needed, shown in the javascript "from_name","from_phone","cake","message","message2","address","reply_to" .
+    Get your own template id, and service id. Copy it in the below javascript line in order.js
+     emailjs.send("service_xkqr1dk", "template_m0virhs")
+
 
 ## Credits
 
