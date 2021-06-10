@@ -633,6 +633,10 @@ form #ordernow:hover {
 	background: #17a2b8;
 }
 
+#subscribe:hover {
+	background-color: #0e535e;
+}
+
 @media(max-width:576px) {
 	.cakeprice {
 		margin: 20px;
