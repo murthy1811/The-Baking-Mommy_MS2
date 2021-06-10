@@ -23,7 +23,7 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-	color: #ee37b7;
+	color: #bc6c25;
 }
 
 .navbar {
@@ -81,25 +81,25 @@
 
 .pic1 h5 {
 	font-size: 3rem;
-	color: #ee37b7;
+	color: #bc6c25;
 	padding-bottom: 250px;
 }
 
 .pic2 h5 {
 	font-size: 3rem;
-	color: #ee37b7;
+	color: #bc6c25;
 	padding-bottom: 200px;
 }
 
 .pic3 h5 {
 	font-size: 3rem;
-	color: #ee37b7;
+	color: #bc6c25;
 	padding-bottom: 200px;
 }
 
 .pic4 h5 {
 	font-size: 3rem;
-	color: #ee37b7;
+	color: #bc6c25;
 	padding-bottom: 200px;
 }
 
@@ -115,25 +115,25 @@
 	}
 	.pic1 h5 {
 		font-size: 2rem;
-		color: #ee37b7;
+		
 		padding-bottom: 120px;
 		font-weight: 200;
 	}
 	.pic2 h5 {
 		font-size: 2rem;
-		color: #ee37b7;
+		
 		padding-bottom: 50px;
 		font-weight: 200;
 	}
 	.pic3 h5 {
 		font-size: 2rem;
-		color: #ee37b7;
+		
 		padding-bottom: 50px;
 		font-weight: 200;
 	}
 	.pic4 h5 {
 		font-size: 2rem;
-		color: #ee37b7;
+		
 		padding-bottom: 50px;
 		font-weight: 200;
 	}
@@ -150,7 +150,7 @@
 	padding-top: 50px;
 	font-family: Reggae one, sans-serif;
 	text-align: center;
-	color: #ee37b7;
+	color: #bc6c25;
 	text-transform: uppercase;
 	padding-bottom: 25px;
 }
@@ -180,7 +180,7 @@ button {
 	margin: 0px auto;
 	font-family: 'Merienda', sans-serif;
 	font-size: 25px;
-	color: #ee37b7;
+	color: #bc6c25;
 }
 
 .assortment ul {
@@ -194,7 +194,7 @@ button {
 	margin: 0px auto;
 	font-family: 'Merienda', sans-serif;
 	font-size: 25px;
-	color: #ee37b7;
+	color: #bc6c25;
 	text-transform: uppercase;
 }
 
@@ -240,7 +240,7 @@ button {
 .userheading h4 {
 	font-family: Reggae one, sans-serif;
 	text-align: center;
-	color: #ee37b7;
+	color: #bc6c25;
 	text-transform: uppercase;
 	padding-bottom: 60px;
 }
@@ -256,7 +256,7 @@ button {
 
 .blockquote {
 	font-family: 'Merienda', sans-serif;
-	color: #ee37b7;
+	color: #bc6c25;
 	font-weight: 200;
 }
 

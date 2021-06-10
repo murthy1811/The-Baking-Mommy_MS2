@@ -253,10 +253,10 @@ This project can be forked using the following process:
 
 - Image Credits
     Carousel images
-        pic1 Photo by Diana Akhmetianova from Pexels
-        pic2 Photo by Irina Edilbaeva from Pexels
+        pic1 Photo by Melissa Walker Horn on Unsplash 
+        pic2 Photo by David Holifield on Unsplash
         pic3 Photo by ROMAN ODINTSOV from Pexels
-        pic4 Photo by Lisa from Pexels
+        pic4 Photo by Hayley Maxwell on Unsplash
  
     Assortment pictures on Main page
         infopic1 Photo by Valeria Boltneva from Pexels  
