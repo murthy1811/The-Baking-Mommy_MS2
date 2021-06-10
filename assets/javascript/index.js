@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $('.assortment').parent().hide();
 
-})
+});
 
 $(".hideit").click(function () {
 

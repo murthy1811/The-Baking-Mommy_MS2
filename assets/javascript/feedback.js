@@ -6,7 +6,7 @@ window.onload = function () {
         // send email here
 
     });
-}
+};
 
 function sendMail(contactForm) {
     emailjs.send("service_xkqr1dk", "template_8p5dh3t", {
@@ -19,17 +19,6 @@ function sendMail(contactForm) {
 
     });
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 

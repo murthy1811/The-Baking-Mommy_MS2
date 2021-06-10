@@ -34,15 +34,15 @@ function initMap() {
     });
 
     var infowindow = new google.maps.InfoWindow({
-      content: "The first marker"
-   });
+        content: "The first marker"
+    });
 
-   google.maps.event.addListener(markers, 'click', function() {
-      infowindow.open(map,markers);
-   });
+    google.maps.event.addListener(markers, 'click', function () {
+        infowindow.open(map, markers);
+    });
 
 
-  
+
 }
 
 

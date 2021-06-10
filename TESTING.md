@@ -52,14 +52,18 @@
 
 ### JSHint Validation results
 
-- Testing game.js
+- index.js
 
-    - No major errors were found. Four warnings were produced, two were very minor and involved two missing semicolons which did not affect the running of 
-    the program. The other two warnings stated that functions declared within loops referencing an outer scoped variable may lead to confusing semantics. 
-    This referred to the variable activeColor and does not affect the running of the program. The functions could be refactored in subsequent updates.
+    - One warning that semicolon is missing. No problem with running the file. Semicolon is added.
+      undeclared variables with $ were found. I could not found a proper solution for this. Some sites suggested to use the proper version of jQuery 
+      but since the site is working as I intend to, I did not fix this warning.
 
-- Testing utils.js
+- order.js, prices.js
 
-    - No major errors were found. Three warnings were produced, a semicolon was missing which was added and did not affect the running of the program. The 
-    other two warnings stated that there was two undefined variables namely anime and emailjs. These were then declared inside the script to remove this warning. 
-    The sendMail variable was declared as unused. This function is called in the form element of the index.html file.
+    - No major errors were found. Warnings were given that undeclared variables were found and suggested to use esversion 6 or esversion 8 in some cases. 
+      site is running as intended and I could not fix this errors. In the future, I will check this to update.
+
+- feedback.js
+
+    - one warning of semicolon missing is fixed. Undefined variables could not be fixed. Unused variable found, but this funciton sendmail is used in html ( submit button) for 
+      contact form.
