@@ -11,9 +11,9 @@
 
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
     </script>
-    <script type="text/javascript">
+    <script>
         (function () {
             emailjs.init("user_8335tq4GpTKmQFD8Dggwe");
         })();
@@ -23,285 +23,280 @@
 </head>
 
 <body>
-    <article>
-        <!--===================================================================Logo and navbar-->
-        <header class="container-fluid">
-            <div class="row justify-content-md-start">
+    <!--===================================================================Logo and navbar-->
+    <header class="container-fluid">
+        <div class="row justify-content-md-start">
 
-                <a href="index.html" class="col-8 col-md-5 col-lg-4 logo"></a>
+            <a href="index.html" class="col-8 col-md-5 col-lg-4 logo"></a>
 
-                <div class="col-4 col-md-7 col-lg-8">
-                    <nav class="navbar navbar-expand-sm navbar-light">
+            <div class="col-4 col-md-7 col-lg-8">
+                <nav class="navbar navbar-expand-sm navbar-light">
 
-                        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
-                            data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span> </button>
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+                        data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span> </button>
 
 
-                        <div class="collapse navbar-collapse menuitem" id="navbarTogglerDemo02">
-                            <ul class="navbar-nav mr-auto">
-                                <li class="nav-item mr-2">
-                                    <a class="nav-link" href="index.html">Home </a>
-                                </li>
-                                <li class="nav-item active mr-2">
-                                    <a class="nav-link" href="order.html">Order <span
-                                            class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item mr-2">
-                                    <a class="nav-link" href="prices.html">Prices</a>
-                                </li>
-                                <li class="nav-item mr-2">
-                                    <a class="nav-link" href="feedback.html">Feedback</a>
-                                </li>
-                            </ul>
-                        </div>
+                    <div class="collapse navbar-collapse menuitem" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item mr-2">
+                                <a class="nav-link" href="index.html">Home </a>
+                            </li>
+                            <li class="nav-item active mr-2">
+                                <a class="nav-link" href="order.html">Order <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item mr-2">
+                                <a class="nav-link" href="prices.html">Prices</a>
+                            </li>
+                            <li class="nav-item mr-2">
+                                <a class="nav-link" href="feedback.html">Feedback</a>
+                            </li>
+                        </ul>
+                    </div>
 
-                    </nav>
-                </div>
+                </nav>
             </div>
-        </header>
+        </div>
+    </header>
 
-        <!--===================================================================Selection-->
+    <!--===================================================================Selection-->
 
-        <section class="background">
-            <div class="row">
+    <section class="background">
+        <div class="row">
 
-                <div class="col-12 col-lg-8">
+            <div class="col-12 col-lg-8">
 
-                    <div class="row guidetext">
-                        <div class="col-12">
-                            <p>Please select the cake from below or enter directly what you wish for in the Order form.
-                                <br>
-                                Let's talk and we can try to help you!!</p>
-                        </div>
+                <div class="row guidetext">
+                    <div class="col-12">
+                        <p>Please select the cake from below or enter directly what you wish for in the Order form.
+                            <br>
+                            Let's talk and we can try to help you!!</p>
                     </div>
-
-                    <div class="row">
-                        <div class="col-12 col-md-4 select">
-                            <div class="selectimage" id="tickthis" >
-                                <img src="assets/images/selectpic1.jpg" alt="fruit cake select button"
-                                    aria-hidden="true" height="250px" width="250px" />
-
-                            </div>
-
-                            <div>
-                                <div class="selectbtn">
-                                    <button onclick="toggleEnable('fruit-cake-choice')"> Select Fruit Cake</button>
-                                </div>
-                                <input list="fruit-cake-type" id="fruit-cake-choice" name="fruit-cake-choice"
-                                    placeholder="select fruit cake" type="text">
-                                <datalist id="fruit-cake-type">
-                                    <!-- fruitcakelist(); -->
-                                    <option value="Grape topping" data-value="1">
-                                    <option value="Oranges" data-value="2">
-                                    <option value="Strawberry" data-value="3">
-                                    <option value="Pineapple" data-value="4">
-
-                                </datalist>
-                            </div>
-                        </div>
-
-
-                        <div class="select col-12 col-md-4">
-                            <div class="selectimage" id="tickthis2">
-                                <img src="assets/images/selectpic2.jpg" alt="cream cake select button"
-                                    aria-hidden="true" height="250px" width="250px">
-
-                            </div>
-
-                            <div>
-                                <div class="selectbtn">
-                                    <button  onclick="toggleEnable('cream-cake-choice')"> Select Cream Cake</button>
-                                </div>
-                                <input list="cream-cake-type" id="cream-cake-choice" name="cream-cake-choice"
-                                    placeholder="select cream cake" type="text" />
-                                <datalist id="cream-cake-type">
-                                    <!-- creamcakelist(); -->
-                                    <option value="Vanilla"></option>
-                                    <option value="Red velvet"></option>
-                                    <option value="Butterscotch"></option>
-                                    <option value="Chocoloate"></option>
-
-                                </datalist>
-                            </div>
-                        </div>
-
-
-                        <div class="select col-12 col-md-4">
-                            <div class="selectimage" id="tickthis3" >
-                                <img src="assets/images/selectpic3.jpg" alt="theme select button" aria-hidden="true"
-                                    height="250px" width="250px">
-
-                            </div>
-
-                            <div>
-                                <div class="selectbtn">
-                                    <button onclick="toggleEnable('theme-choice')"> Select Theme Cake</button>
-                                </div>
-                                <input list="theme-type" id="theme-choice" name="theme-choice"
-                                    placeholder="select theme" type="text" required>
-                                <datalist id="theme-type">
-                                    <!-- themelist(); -->
-                                    <option value="Birthday"></option>
-                                    <option value="Wedding"></option>
-                                    <option value="Kid Theme"></option>
-                                    <option value="Custom Theme"></option>
-
-                                </datalist>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row displaymessage">
-                        <div>
-                            <p id="newpara">Thank you for chosing "_______". Please fill out the form to the next. We
-                                will reach you
-                                and agree on what you want</p>
-                        </div>
-                    </div>
-
-                    <!--============================================================================================Map API-->
-
-                    <div class="row deliveryinfo">
-                        <div id="map" class="col-12 col-md-7 d-sm-block d-none"></div>
-
-                        <div class="col-12 col-md-4 d-sm-block d-none ">
-                            <p> Everyday, we deliver at the pinned locations, between 7pm-8pm for free</p>
-                            <p> Home Delivery will be charged extra 50SEK</p>
-                        </div>
-
-                        <div class="col-12 col-md-4 d-block d-sm-none">
-                            <p> Everyday, we deliver at Brunnsparken, Korsvagen,and Hjalmar between 7pm-8pm for free</p>
-                            <p> Home Delivery will be charged extra</p>
-                        </div>
-
-                    </div>
-
                 </div>
-                <!--======================================================================================Order Form-->
-                <div class="col-12 col-lg-4 order ">
 
-                    <h4> Order Now and Pay at Home</h4>
-
-                    <form onsubmit="return sendMail(this);" autocomplete="off" id="orderform">
-
-                        <div class="small-screen-form">
-                            <div>
-                                <label for="cake">Cake Selected</label>
-                                <input type="text" name="cake" id="cake" required>
-                            </div>
-
-                            <div>
-                                <label for="name">Name</label>
-                                <input type="text" name="name" id="name" placeholder="Your Name" required>
-                            </div>
-                            <div>
-                                <label for="number">Phone</label>
-                                <input type="number" name="number" id="number" placeholder="123456" required>
-                            </div>
-                            <div>
-                                <label for="emailaddress">Email</label>
-                                <input type="email" name="emailaddress" id="emailaddress" placeholder="Your Email"
-                                    required>
-                            </div>
-                            <div>
-                                <label for="address">Address</label>
-                                <input type="text" name="address" id="address" placeholder="Your Address" required>
-                            </div>
-                        </div>
-                        <div class="aligntop">
-                            <div>
-                                <div class="d-sm-block d-none">
-                                    <label for="notes"> Additional Notes to us : </label>
-                                    <textarea name="message" id="notes" rows="10" cols="40"
-                                        placeholder="Any specific requests, Please write. "></textarea>
-                                </div>
-
-                                <div class="d-sm-none d-block">
-                                    <label for="notes2"> Additional Notes to us : </label>
-                                    <br>
-                                    <textarea name="message2" id="notes2" rows="10" cols="31"
-                                        placeholder="Any specific requests, Please write. "></textarea>
-                                </div>
-                            </div>
-                            <div class="send">
-                                <button type="submit" name="ordernow" id="ordernow">Order now</button>
-                            </div>
-                        </div>
-                    </form>
-
-
-                </div>
-            </div>
-
-        </section>
-
-        <!--===================================================================Footer-->
-
-        <footer>
-            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12 col-md-4">
-                        <h5>About us</h5>
-                        <br>
-                        <p>The Baking Mommy is an young and aspiring cakes supplier in the city of Gothenburg, Sweden.
-                            We are in the business of making people happy, by providing them the cakes they need for
-                            their moments without hassle free.
-                        </p>
-                    </div>
+                    <div class="col-12 col-md-4 select">
+                        <div class="selectimage" id="tickthis">
+                            <img src="assets/images/selectpic1.jpg" alt="fruit cake select button" aria-hidden="true"
+                                height="250" width="250" />
 
-                    <div class="col-12 col-md-4">
-                        <h5>Social Media</h5>
-                        <div class="social-links">
+                        </div>
 
-                            <ul class="list-inline inline-block">
-                                <li class="list-inline-item">
-                                    <a target="_blank" rel="noopener" href="https://www.facebook.com">
-                                        <i class="fab fa-facebook" aria-hidden="true"></i>
-                                        <span class="sr-only">Facebook</span>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a target="_blank" rel="noopener" href="https://www.twitter.com">
-                                        <i class="fab fa-twitter" aria-hidden="true"></i>
-                                        <span class="sr-only">Twitter</span>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a target="_blank" rel="noopener" href="https://www.pinterest.com">
-                                        <i class="fab fa-pinterest" aria-hidden="true"></i>
-                                        <span class="sr-only">LinkedIn</span>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a target="_blank" rel="noopener" href="https://www.instagram.com">
-                                        <i class="fab fa-instagram" aria-hidden="true"></i>
-                                        <span class="sr-only">Instagram</span>
-                                    </a>
-                                </li>
+                        <div>
+                            <div class="selectbtn">
+                                <button onclick="toggleEnable('fruit-cake-choice')"> Select Fruit Cake</button>
+                            </div>
+                            <input list="fruit-cake-type" id="fruit-cake-choice" name="fruit-cake-choice"
+                                placeholder="select fruit cake" type="text">
+                            <datalist id="fruit-cake-type">
+                                <!-- fruitcakelist(); -->
+                                <option value="Grape topping" data-value="1">
+                                <option value="Oranges" data-value="2">
+                                <option value="Strawberry" data-value="3">
+                                <option value="Pineapple" data-value="4">
 
-                            </ul>
+                            </datalist>
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-4">
-                        <h5>Contact Us</h5>
-                        <div class="phone">
-                            <a href="tel:+46777666555">
-                                <i class="fas fa-phone-alt" aria-hidden="true"></i> +46 777666555</a>
+
+                    <div class="select col-12 col-md-4">
+                        <div class="selectimage" id="tickthis2">
+                            <img src="assets/images/selectpic2.jpg" alt="cream cake select button" aria-hidden="true"
+                                height="250" width="250">
+
                         </div>
-                        <div class="email">
-                            <a target="_blank" href="mailto:info@thebakingmommy.se">
-                                <i class="fas fa-envelope-square" aria-hidden="true"></i> info@thebakingmommy.se</a>
+
+                        <div>
+                            <div class="selectbtn">
+                                <button onclick="toggleEnable('cream-cake-choice')"> Select Cream Cake</button>
+                            </div>
+                            <input list="cream-cake-type" id="cream-cake-choice" name="cream-cake-choice"
+                                placeholder="select cream cake" type="text" />
+                            <datalist id="cream-cake-type">
+                                <!-- creamcakelist(); -->
+                                <option value="Vanilla"></option>
+                                <option value="Red velvet"></option>
+                                <option value="Butterscotch"></option>
+                                <option value="Chocoloate"></option>
+
+                            </datalist>
+                        </div>
+                    </div>
+
+
+                    <div class="select col-12 col-md-4">
+                        <div class="selectimage" id="tickthis3">
+                            <img src="assets/images/selectpic3.jpg" alt="theme select button" aria-hidden="true"
+                                height="250" width="250">
+
+                        </div>
+
+                        <div>
+                            <div class="selectbtn">
+                                <button onclick="toggleEnable('theme-choice')"> Select Theme Cake</button>
+                            </div>
+                            <input list="theme-type" id="theme-choice" name="theme-choice" placeholder="select theme"
+                                type="text" required>
+                            <datalist id="theme-type">
+                                <!-- themelist(); -->
+                                <option value="Birthday"></option>
+                                <option value="Wedding"></option>
+                                <option value="Kid Theme"></option>
+                                <option value="Custom Theme"></option>
+
+                            </datalist>
                         </div>
                     </div>
                 </div>
+
+                <div class="row displaymessage">
+                    <div>
+                        <p id="newpara">Thank you for chosing "_______". Please fill out the form to the next. We
+                            will reach you
+                            and agree on what you want</p>
+                    </div>
+                </div>
+
+                <!--============================================================================================Map API-->
+
+                <div class="row deliveryinfo">
+                    <div id="map" class="col-12 col-md-7 d-sm-block d-none"></div>
+
+                    <div class="col-12 col-md-4 d-sm-block d-none ">
+                        <p> Everyday, we deliver at the pinned locations, between 7pm-8pm for free</p>
+                        <p> Home Delivery will be charged extra 50SEK</p>
+                    </div>
+
+                    <div class="col-12 col-md-4 d-block d-sm-none">
+                        <p> Everyday, we deliver at Brunnsparken, Korsvagen,and Hjalmar between 7pm-8pm for free</p>
+                        <p> Home Delivery will be charged extra</p>
+                    </div>
+
+                </div>
+
             </div>
+            <!--======================================================================================Order Form-->
+            <div class="col-12 col-lg-4 order ">
 
-        </footer>
+                <h4> Order Now and Pay at Home</h4>
 
-    </article>
+                <form onsubmit="return sendMail(this);" autocomplete="off" id="orderform">
+
+                    <div class="small-screen-form">
+                        <div>
+                            <label for="cake">Cake Selected</label>
+                            <input type="text" name="cake" id="cake" required>
+                        </div>
+
+                        <div>
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div>
+                            <label for="number">Phone</label>
+                            <input type="number" name="number" id="number" placeholder="123456" required>
+                        </div>
+                        <div>
+                            <label for="emailaddress">Email</label>
+                            <input type="email" name="emailaddress" id="emailaddress" placeholder="Your Email" required>
+                        </div>
+                        <div>
+                            <label for="address">Address</label>
+                            <input type="text" name="address" id="address" placeholder="Your Address" required>
+                        </div>
+                    </div>
+                    <div class="aligntop">
+                        <div>
+                            <div class="d-sm-block d-none">
+                                <label for="notes"> Additional Notes to us : </label>
+                                <textarea name="message" id="notes" rows="10" cols="40"
+                                    placeholder="Any specific requests, Please write. "></textarea>
+                            </div>
+
+                            <div class="d-sm-none d-block">
+                                <label for="notes2"> Additional Notes to us : </label>
+                                <br>
+                                <textarea name="message2" id="notes2" rows="10" cols="31"
+                                    placeholder="Any specific requests, Please write. "></textarea>
+                            </div>
+                        </div>
+                        <div class="send">
+                            <button type="submit" name="ordernow" id="ordernow">Order now</button>
+                        </div>
+                    </div>
+                </form>
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <!--===================================================================Footer-->
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <h5>About us</h5>
+                    <br>
+                    <p>The Baking Mommy is an young and aspiring cakes supplier in the city of Gothenburg, Sweden.
+                        We are in the business of making people happy, by providing them the cakes they need for
+                        their moments without hassle free.
+                    </p>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <h5>Social Media</h5>
+                    <div class="social-links">
+
+                        <ul class="list-inline inline-block">
+                            <li class="list-inline-item">
+                                <a target="_blank" rel="noopener" href="https://www.facebook.com">
+                                    <i class="fab fa-facebook" aria-hidden="true"></i>
+                                    <span class="sr-only">Facebook</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" rel="noopener" href="https://www.twitter.com">
+                                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                                    <span class="sr-only">Twitter</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" rel="noopener" href="https://www.pinterest.com">
+                                    <i class="fab fa-pinterest" aria-hidden="true"></i>
+                                    <span class="sr-only">LinkedIn</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" rel="noopener" href="https://www.instagram.com">
+                                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                                    <span class="sr-only">Instagram</span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <h5>Contact Us</h5>
+                    <div class="phone">
+                        <a href="tel:+46777666555">
+                            <i class="fas fa-phone-alt" aria-hidden="true"></i> +46 777666555</a>
+                    </div>
+                    <div class="email">
+                        <a target="_blank" href="mailto:info@thebakingmommy.se">
+                            <i class="fas fa-envelope-square" aria-hidden="true"></i> info@thebakingmommy.se</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
