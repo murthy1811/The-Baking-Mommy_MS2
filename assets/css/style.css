@@ -520,6 +520,14 @@ div#map {
 	color: white;
 }
 
+form #ordernow:hover {
+	background-color: #0e535e;
+}
+
+.btnhover:hover {
+	background-color: #0e535e;
+}
+
 @media(max-width:576px) {
 	.order {
 		padding-top: 25px;
@@ -582,27 +590,27 @@ div#map {
 	text-align: center;
 	font-family: Reggae One, sans-serif;
 	margin: 125px;
-	color: #ee37b7;
+	color: #bc6c25;
 	padding: 20px;
 	min-height: 200px;
 }
 
 .cakeprice p {
 	font-size: 20px;
-	color: #ee37b7;
+	color: #bc6c25;
 }
 
 .payment {
 	text-align: center;
 	font-family: Reggae One, sans-serif;
-	color: #ee37b7;
+	color: #bc6c25;
 	font-size: 25px;
 }
 
 .recipeoffer {
 	text-align: center;
 	font-family: Reggae One, sans-serif;
-	color: #ee37b7;
+	color: #bc6c25;
 	font-size: 20px;
 }
 
@@ -632,18 +640,17 @@ div#map {
 	}
 	.cakeprice p {
 		font-size: 15px;
-		color: aqua;
 	}
 	.payment {
 		text-align: center;
 		font-family: Reggae One, sans-serif;
-		color: brown;
+		color: #bc6c25;
 		font-size: 20px;
 	}
 	.recipeoffer {
 		text-align: center;
 		font-family: Reggae One, sans-serif;
-		color: brown;
+		color: #bc6c25;
 		font-size: 15px;
 	}
 	#mailbox {
@@ -759,7 +766,7 @@ div#map {
 }
 
 form .submit-rating:hover {
-	background-color: #333;
+	background-color: #0e535e;
 }
 
 
@@ -769,14 +776,14 @@ form .submit-rating:hover {
 	padding-top: 20px;
 	font-family: Reggae One, sans-serif;
 	text-align: center;
-	color: #ee37b7;
+	color: #bc6c25;
 }
 
 #feedbackform {
 	padding-top: 20px;
 	font-family: Reggae One, sans-serif;
 	text-align: left;
-	color: #ee37b7;
+	color: #bc6c25;
 }
 
 .question {
