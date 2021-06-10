@@ -211,3 +211,6 @@ Bugs which were identified but not fixed due to time constraint, and lack of sol
 
 - For feedback form, there is no error alert message display in case submission is not made properly due to internet issues.
    Fix needed to be added in the future.
+
+- On tablet screen, on home page, a cake quote on pic no.3 is not aligned.
+   Fix needed to be added in the future.
