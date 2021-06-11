@@ -65,65 +65,85 @@
 
 - feedback.js
 
-    - one warning of semicolon missing is fixed. Undefined variables could not be fixed. Unused variable found, but this funciton sendmail is used in html ( submit button) for 
-      contact form.
+    - one warning of semicolon missing is fixed. Undefined variables could not be fixed. Unused variable found, but this funciton sendmail is used in
+      html ( submit button) for contact form.
 
 
 ## Testing User Stories from User Experience Section
 
  As an User, I want:
  
-    1. Find information on the type of cakes available
+1. Find information on the type of cakes available
 
-        - users were welcomed to the website with carousel cake images, and immediately below, text is displayed "check out our assortment", which 
-          should be enough to make user to scroll down a bit . Images were displayed to identify with the cakes, and buttons were provided with a click icon, and
-          encouraging test is written on the button to make user to click. Upon, click, cake list is displayed
+      - users were welcomed to the website with carousel cake images, and immediately below, text is displayed "check out our assortment", which 
+        should be enough to make user to scroll down a bit . Images were displayed to identify with the cakes, and buttons were provided with a click icon, and
+        encouraging test is written on the button to make user to click. Upon, click, cake list is displayed
 
-    2. Understand or read the other users experience with the cake
+        <img src="assets/images/testing_images/carousel.JPG" alt="image sliding" height=150 width="300" />
+        <img src="assets/images/testing_images/clickselection.JPG" alt="click assortment" height=150 width="300" />
 
-        - Immediately after cake assortment list, user reviews were given , to let the new user know about the taste of products and service of the organisation.
+2. Understand or read the other users experience with the cake
+- Immediately after cake assortment list, user reviews were given , to let the new user know about the taste of products and service of the organisation.
     
-    3. Easily make an order for an interested cake
+3. Easily make an order for an interested cake
 
-        - Navigation bar clearly shows a separate page to make an order. 
-          Order page shows a form to the right, and on left, an options for user to select the cake. Buttons were consistent in all pages so as to make user familiar to click.
-          Upon selection of cakes, Display text below changes with the options selected by the user. As well, the order form will be prefilled automatically, to help user.
-          Clear text is written in the top of page for user to either select or write his own flaovour, and he will be reached to confirm. 
-          Order form is basic to fill with the details to reach and deliver the cakes.
+ - Navigation bar clearly shows a separate page to make an order. 
+Order page shows a form to the right, and on left, an options for user to select the cake. Buttons were consistent in all pages so as to make user familiar to click.
+Upon selection of cakes, Display text below changes with the options selected by the user. As well, the order form will be prefilled automatically, to help user.
+Clear text is written in the top of page for user to either select or write his own flaovour, and he will be reached to confirm. 
+Order form is basic to fill with the details to reach and deliver the cakes.
 
-    4. Get confirmation once I make an order or give feedback
+<div align="center">
+<img src="assets/images/testing_images/orderform.JPG" alt="order selection" height=150 width="300" />
+</div>
 
-        - A sweet alert is given, once the order is submitted with a thank you and a confirmation message that the user will be contacted.
-          order submit is not activated untill all the required information is filled by the user , so that the order is reached with all details. 
-          Error message will be given in case the order form is not submitted properly due to internet issues or any other.
-        
-    5. Clear information on delivery areas and time.
+4. Get confirmation once I make an order or give feedback
 
-        - Google maps API is called to show the user , locations where the cakes will be delivered, and the time is written clearly next to the maps.
-          Delivery fee is mentioned for home deliveries. 
+- A sweet alert is given, once the order is submitted with a thank you and a confirmation message that the user will be contacted.
+order submit is not activated untill all the required information is filled by the user , so that the order is reached with all details. 
+ Error message will be given in case the order form is not submitted properly due to internet issues or any other.
+
+<div align="center">
+<img src="assets/images/testing_images/orderconfirm.JPG" alt="confirm message" height=150 width="300" />
+<img src="assets/images/testing_images/order-error.JPG" alt="error message" height=150 width="300" />
+</div> 
 
 
-    6. Check out the social media of the organisation and can reach them through it
+ 5. Clear information on delivery areas and time.
 
-        - Footer section is designed and is given in all pages. Social media links were given through font awsome icons and will be opened in a new page.
-           Contact number and email were given in case an user wants to reach the organisation.
+ - Google maps API is called to show the user , locations where the cakes will be delivered, and the time is written clearly next to the maps.
+ Delivery fee is mentioned for home deliveries. 
 
-    7. Associate with the organisation to make future purchases.
 
-        - User is encouraged to make a subscription so that they can be reached via email with offers, recipes etc. User is asked to post their try-outs 
-          in organisation instagram page. This is to keep relation with the user for all his future needs.
+6. Check out the social media of the organisation and can reach them through it
 
-    7. Get the details of the prices.
+   - Footer section is designed and is given in all pages. Social media links were given through font awsome icons and will be opened in a new page.
+     Contact number and email were given in case an user wants to reach the organisation.
 
-        - Prices page gives the user all costs of the cakes with a simple details.
+7. Associate with the organisation to make future purchases.
 
-    8. Give proper feedback in different categories and overall experience.
+    - User is encouraged to make a subscription so that they can be reached via email with offers, recipes etc. User is asked to post their try-outs 
+     in organisation instagram page. This is to keep relation with the user for all his future needs.
 
-        - feedback page is designed to guide the user. Submit button is disabled till the mandatory queries are answered. the queries were red in color before user gives input.
-        they will be turned to green once the user make a selection. Radio buttons were given in order to make the user job easy. Text box is provided in case , user wants 
-         to write feedback in detail, but not mandatory to fill , for the feedback submission. Form can be submitted with out this.
-         Finally, user is provided with star rating, to give the satisfaction for the user to be in charge. Sweet alert confimation is given to the user after the submission
-    
+<div align="center">
+<img src="assets/images/testing_images/subscribe.JPG" alt="subscribe box" height=150 width="600" />
+</div>
+
+8. Get the details of the prices.
+
+    - Prices page gives the user all costs of the cakes with a simple details.
+
+9. Give proper feedback in different categories and overall experience.
+
+    - feedback page is designed to guide the user. Submit button is disabled till the mandatory queries are answered. the queries were red in color before 
+    user gives input. they will be turned to green once the user make a selection. Radio buttons were given in order to make the user job easy. Text box is provided in case , user wants 
+to write feedback in detail, but not mandatory to fill , for the feedback submission. Form can be submitted with out this.
+Finally, user is provided with star rating, to give the satisfaction for the user to be in charge. Sweet alert confimation is given to the user after the submission
+   
+<div align="center">
+<img src="assets/images/testing_images/green-feedback.JPG" alt="feedback filled" height=300 width="600" />
+</div>
+
 
 ## Manual Testing on Live Site
 
@@ -198,6 +218,11 @@
  - within feedback page, the radio buttons were misplaced , the input box is flowing out of the page, in small screens.
    - fixed with media queries, for smaller screens and medium screens. 
 
+<div align="center">
+<img src="assets/images/testing_images/mobile-error-feedback.JPG" alt="feedback filled" height=500 width="250" />
+</div>
+
+
 -  On home page, the buttons, were intially did not responded well on responsive screens. Text on buttons - cherish it, overflowed from the button 
    - fixed by setting the width option to automatically
 
@@ -209,8 +234,17 @@ Bugs which were identified but not fixed due to time constraint, and lack of sol
 -  Order form - Additonal notes label and text box were not aligned with other inputs, on screens width from 1000px to 1400px.
     Fix need to be added in the future.
 
+<div align="center">
+<img src="assets/images/testing_images/order-form-misalign.JPG" alt="feedback filled" height=300 width="200" />
+</div>
+
+
 - For feedback form, there is no error alert message display in case submission is not made properly due to internet issues.
    Fix needed to be added in the future.
 
 - On tablet screen, on home page, a cake quote on pic no.3 is not aligned.
    Fix needed to be added in the future.
+
+<div align="center">
+<img src="assets/images/testing_images/tablet-carousel-misalign.JPG" alt="feedback filled" height=400 width="300" />
+</div>
