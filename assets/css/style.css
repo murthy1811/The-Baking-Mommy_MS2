@@ -676,20 +676,10 @@ form #ordernow:hover {
 
 /* -----------star rating queriess CSS( code taken from https://www.markuptag.com/feedback-form-with-star-rating-html/ ) */
 
-.star-rating form {
+/* .star-rating form {
 	display: none;
-}
+} */
 
-.star-rating .thanks-msg {
-	display: none;
-	font-size: 20px;
-	margin: 40px auto;
-	color: #4caf50;
-	background-color: rgba(76, 175, 80, 0.1411764705882353);
-	padding: 8px 20px;
-	border-left: 3px solid #4caf50;
-	border-radius: 20px;
-}
 
 .star-rating input {
 	display: none;
@@ -752,9 +742,9 @@ form #ordernow:hover {
 }
 
 .star-rating form .rating-reaction {
-	font-size: 24px;
-	float: left;
-	text-transform: capitalize;
+    font-size: 24px;
+    float: left;
+    text-transform: capitalize;
 }
 
 .star-rating form .submit-rating {
@@ -772,6 +762,8 @@ form #ordernow:hover {
 form .submit-rating:hover {
 	background-color: #0e535e;
 }
+
+
 
 
 /* ------------------------------------------------------------------------------------Style for rest of feedback */
@@ -830,7 +822,7 @@ form .submit-rating:hover {
 	}
 	.star-rating label {
 		font-size: 30px;
-		float: left;
+		float: right;
 	}
 	#choice {
 		width: 280px;
@@ -839,5 +831,9 @@ form .submit-rating:hover {
 		margin-left: 20px;
 		margin-bottom: 5px;
 		display: block;
-	}
+    }
+    
+    .star-rating{
+        width: 275px;
+    }
 }
