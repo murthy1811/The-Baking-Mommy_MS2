@@ -114,6 +114,9 @@ order submit is not activated untill all the required information is filled by t
  - Google maps API is called to show the user , locations where the cakes will be delivered, and the time is written clearly next to the maps.
  Delivery fee is mentioned for home deliveries. 
 
+<div align="center">
+<img src="assets/images/testing_images/maps.JPG" alt="order selection" height=150 width="400" />
+</div>
 
 6. Check out the social media of the organisation and can reach them through it
 

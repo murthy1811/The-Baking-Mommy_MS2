@@ -1,9 +1,9 @@
-<div align="center"> (*****************************************udpate here)
-    <a href="https://johnny-morgan.github.io/memory-blocks/" target="_blank"><img src="assets/images/screenshot_home.png" alt="memory blocks logo"></a>
+<div align="center"> 
+    <a href="https://murthy1811.github.io/The-Baking-Mommy_MS2/" target="_blank"><img src="assets/images/screenshot-home.JPG" alt="memory blocks logo"></a>
     <h2>
         The Baking Mommy is a website for the cake lovers. All cake lovers should be able to order the cakes they like and give feedback
     </h2>
-    <h3><a href="https://johnny-morgan.github.io/memory-blocks/" target="_blank">Click here</a> to view the site on GitHub pages.</h3>
+    <h3><a href="https://murthy1811.github.io/The-Baking-Mommy_MS2/" target="_blank">Click here</a> to view the site on GitHub pages.</h3>
 </div>
 
 ## Table of Contents
@@ -66,7 +66,6 @@ Customer goals
     on how the organisation reaches user for agreement and delivery. Prices page gives the costs of cakes, and how the payment should be made. Feedback page lets user to give 
     ratings on his overall experience. Footer content gives away social media links, contact and a little detail of the organisation.
     
- Keep an image here (************************************************************update here)
 
  ## User Experience
 
@@ -195,35 +194,35 @@ The following are elements that could be added to the website in future developm
 - EmailJS
 - Sweetalert2 Github
 
-## Testing  (*******************************************************update here)
+## Testing 
 
-The testing data for this project can be found in a separate file called [TESTING.md](https://github.com/Johnny-Morgan/memory-blocks/blob/master/TESTING.md).
+The testing data for this project can be found in a separate file called [TESTING.md](https://github.com/murthy1811/The-Baking-Mommy_MS2/blob/master/TESTING.md).
 
-## Deployment (*****************************************************update here)
+## Deployment 
 
 ### Deploying to GitHub Pages
 
 This project was deployed to GitHub Pages using the following process:
 
-1. Log in to GitHub and locate the projects [repository](https://github.com/Johnny-Morgan/memory-blocks/).
+1. Log in to GitHub and locate the projects [repository](https://github.com/murthy1811/The-Baking-Mommy_MS2).
 2. From the menu locate and click Settings.
 3. Scroll down to the GitHub Pages section.
 4. Click on the drop-down menu under Source and select Master Branch.
 5. Click the Save button.
-6. The site is now published and the [link](https://johnny-morgan.github.io/memory-blocks/) is provided.
+6. The site is now published and the [link](https://murthy1811.github.io/The-Baking-Mommy_MS2/) is provided.
 
 ### Forking the GitHub Repository
 
 Forking a repository allows you to freely experiment with changes without affecting the original project.
 This project can be forked using the following process:
 
-1. Log in to GitHub and locate the projects [repository](https://github.com/Johnny-Morgan/memory-blocks/).
+1. Log in to GitHub and locate the projects [repository](https://github.com/murthy1811/The-Baking-Mommy_MS2).
 2. At the top right-hand side of the page locate and click on the Fork button.
 3. Further information can be found [here](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo).
 
 ### Cloning the GitHub Repository
 
-1. Log in to GitHub and locate the projects [repository](https://github.com/Johnny-Morgan/memory-blocks/).
+1. Log in to GitHub and locate the projects [repository](https://github.com/murthy1811/The-Baking-Mommy_MS2).
 2. Click on the Code button which is located above the list of project files.
 3. Copy the URL link located under the HTTPS tab.
 4. Open a terminal in your IDE.
@@ -309,6 +308,7 @@ This project can be forked using the following process:
 
 - I would like to Acknowledge Excellence Ilesanmi for his review on the project and giving feedback and changes to be made.
 - Tutor support
+
 
 
 **This project is for educational use only and was created for the Code Institute Module of interactive front end development**
