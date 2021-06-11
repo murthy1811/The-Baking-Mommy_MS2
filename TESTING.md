@@ -10,6 +10,7 @@
 3. [**Testing User Stories from User Experience Section**](#testing-user-stories-from-user-experience-section)
 4. [**Manual Testing on Live Site**](#manual-testing-on-live-site)
 5. [**Bugs Discovered**](#bugs-discovered)
+6. [**Website Performance**](#Performance-report-dev-tools)
 
 ## Testing Overview
 
@@ -198,6 +199,9 @@ Finally, user is provided with star rating, to give the satisfaction for the use
   7. Verified if email is being received with all the information entered by user.
   8. Checked if confirmation message is being displayed after the submission.
 
+  Development tools on the chrome page were used extensively to develop the webiste while coding is written. Consistely website is checked for 
+  alignment, colors, fonts, and javascript error checking etc using devtools to make sure the code works before updating the IDE.
+
 ## Bugs Discovered
 
  - Bugs while code is worked out and fixed.
@@ -222,7 +226,7 @@ Finally, user is provided with star rating, to give the satisfaction for the use
    - fixed with media queries, for smaller screens and medium screens. 
 
 <div align="center">
-<img src="assets/images/testing_images/mobile-error-feedback.JPG" alt="feedback filled" height=500 width="250" />
+<img src="assets/images/testing_images/mobile-error-feedback.JPG" alt="bug on mobile screen" height=500 width="250" />
 </div>
 
 
@@ -238,7 +242,7 @@ Bugs which were identified but not fixed due to time constraint, and lack of sol
     Fix need to be added in the future.
 
 <div align="center">
-<img src="assets/images/testing_images/order-form-misalign.JPG" alt="feedback filled" height=300 width="200" />
+<img src="assets/images/testing_images/order-form-misalign.JPG" alt="media query bug" height=300 width="200" />
 </div>
 
 
@@ -249,5 +253,11 @@ Bugs which were identified but not fixed due to time constraint, and lack of sol
    Fix needed to be added in the future.
 
 <div align="center">
-<img src="assets/images/testing_images/tablet-carousel-misalign.JPG" alt="feedback filled" height=400 width="300" />
+<img src="assets/images/testing_images/tablet-carousel-misalign.JPG" alt="misalign on tablet" height=400 width="300" />
+</div>
+
+##Performance-report-dev-tools
+
+<div align="center">
+<img src="assets/images/testing_images/lighthouse-report.JPG" alt="dev tools performance report" height=400 width="300" />
 </div>
