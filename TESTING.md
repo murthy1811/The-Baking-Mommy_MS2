@@ -62,7 +62,7 @@
 - order.js, prices.js
 
     - No major errors were found. Warnings were given that undeclared variables were found and suggested to use esversion 6 or esversion 8 in some cases. 
-      site is running as intended and I could not fix this errors. In the future, I will check this to update.
+      site is running as intended and I could not fix this warnings.
 
 - feedback.js
 
