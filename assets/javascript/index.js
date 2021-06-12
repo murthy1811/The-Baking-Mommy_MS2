@@ -1,3 +1,6 @@
+
+/* ---------------------------------------------------------------------js for cake list */
+
 $(document).ready(function () {
     $('.assortment').parent().hide();
 

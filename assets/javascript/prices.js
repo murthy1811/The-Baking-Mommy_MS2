@@ -1,3 +1,5 @@
+/* ---------------------------------------------------------------------js for subscription */
+
 $('#subscribe').prop('disabled', true);
 
 let toValidate = jQuery('#mailbox'),

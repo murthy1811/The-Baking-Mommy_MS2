@@ -1,3 +1,5 @@
+/* ---------------------------------------------------------------------feedback js for confirmation */
+
 window.onload = function () {
     document.getElementById('feedbackform').addEventListener('submit', function (event) {
         event.preventDefault();
@@ -7,6 +9,8 @@ window.onload = function () {
 
     });
 };
+
+/* ---------------------------------------------------------------------js for sending mail */
 
 function sendMail(contactForm) {
     emailjs.send("service_xkqr1dk", "template_8p5dh3t", {

@@ -112,8 +112,6 @@ toValidate.change(function () {
 });
 
 
-
-
 function sendMail(contactForm) {
 
     Swal.fire("Thank you for the Order", "We will reach you soon to confirm everything!", "success");
