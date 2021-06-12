@@ -419,26 +419,6 @@ div#map {
 	padding-bottom: 20px;
 }
 
-@media(max-width:576px) {
-	div#map {
-		min-height: 250px;
-		width: 120px;
-		margin-left: 10px;
-		border-radius: 50px;
-	}
-	.displaymessage p {
-		text-align: center;
-		font-size: 20px;
-		padding-top: 20px;
-		width: 300px;
-		margin-right: 10px;
-		margin-left: 20px;
-	}
-	.deliveryinfo p {
-		text-align: center;
-	}
-}
-
 @media only screen and (max-width: 1200px) and (min-width: 576px) {
 	.select img {
 		border-radius: 10px;
@@ -447,9 +427,33 @@ div#map {
 		width: 200px;
 	}
 	.displaymessage p {
-		margin: 0px 50px 0px 50px;
+        margin: 0px 50px 0px 50px;
+        text-align: center;
 	}
 }
+
+@media(max-width:576px) {
+	div#map {
+		min-height: 250px;
+		width: 120px;
+		margin-left: 10px;
+		border-radius: 50px;
+    }
+    
+	.displaymessage p {
+		text-align: center;
+		font-size: 20px;
+		padding-top: 20px;
+		width: auto;
+		margin: 0px 5px 0px 5px;
+    }
+    
+	.deliveryinfo p {
+		text-align: center;
+	}
+}
+
+
 
 
 /* ---------------------------------------------------------------------order form */
