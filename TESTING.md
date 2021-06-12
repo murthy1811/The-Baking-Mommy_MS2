@@ -240,10 +240,10 @@ Finally, user is provided with star rating, to give the satisfaction for the use
    - Fixed by adding reducing width on smaller screens for star-rating class.
 
 <div align="center">
-<img src="assets/images/testing_images/mobile-error-feedback.JPG" alt="bug on mobile screen" height=500 width="250" />
+<img src="assets/images/testing_images/star-rating-reverse-mobile.JPG" alt="bug on mobile screen" height=500 width="250" />
 </div>
 
-# Bugs which were identified but not fixed due to time constraint, and lack of solutions
+## Bugs which were identified but not fixed due to time constraint
 
 -  Order form - Additonal notes label and text box were not aligned with other inputs, on screens width from 1000px to 1400px.
     Fix need to be added in the future.
@@ -260,10 +260,10 @@ Finally, user is provided with star rating, to give the satisfaction for the use
    Fix needed to be added in the future.
 
 <div align="center">
-<img src="assets/images/testing_images/star-rating-reverse-mobile.JPG" alt="star rating error on mobile screen" height=400 width="200" />
+<img src="assets/images/testing_images/tablet-carousel-misalign.JPG" alt="star rating error on mobile screen" height=300 width="200" />
 </div>
 
-##Performance-report-dev-tools
+## Performance-report-dev-tools
 
 <div align="center">
 <img src="assets/images/testing_images/lighthouse-report.JPG" alt="dev tools performance report" height=400 width="300" />

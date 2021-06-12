@@ -676,11 +676,6 @@ form #ordernow:hover {
 
 /* -----------star rating queriess CSS( code taken from https://www.markuptag.com/feedback-form-with-star-rating-html/ ) */
 
-/* .star-rating form {
-	display: none;
-} */
-
-
 .star-rating input {
 	display: none;
 }
