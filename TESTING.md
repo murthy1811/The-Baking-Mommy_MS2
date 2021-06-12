@@ -80,8 +80,8 @@
         should be enough to make user to scroll down a bit . Images were displayed to identify with the cakes, and buttons were provided with a click icon, and
         encouraging test is written on the button to make user to click. Upon, click, cake list is displayed
 
-        <img src="assets/images/testing_images/carousel.JPG" alt="image sliding" height=150 width="300" />
-        <img src="assets/images/testing_images/clickselection.JPG" alt="click assortment" height=150 width="300" />
+        <img src="assets/images/testing_images/carousel.jpg" alt="screen shot of home page showing carousel" height=150 width="300" />
+        <img src="assets/images/testing_images/clickselection.jpg" alt="screen shot of home page showing cake list" height=150 width="300" />
 
 2. Understand or read the other users experience with the cake
 - Immediately after cake assortment list, user reviews were given , to let the new user know about the taste of products and service of the organisation.
@@ -95,7 +95,7 @@ Clear text is written in the top of page for user to either select or write his 
 Order form is basic to fill with the details to reach and deliver the cakes.
 
 <div align="center">
-<img src="assets/images/testing_images/orderform.JPG" alt="order selection" height=150 width="300" />
+<img src="assets/images/testing_images/orderform.jpg" alt="order form" height=150 width="300" />
 </div>
 
 4. Get confirmation once I make an order or give feedback
@@ -105,8 +105,8 @@ order submit is not activated untill all the required information is filled by t
  Error message will be given in case the order form is not submitted properly due to internet issues or any other.
 
 <div align="center">
-<img src="assets/images/testing_images/orderconfirm.JPG" alt="confirm message" height=150 width="300" />
-<img src="assets/images/testing_images/order-error.JPG" alt="error message" height=150 width="300" />
+<img src="assets/images/testing_images/orderconfirm.jpg" alt="confirm message after order" height=150 width="300" />
+<img src="assets/images/testing_images/order-error.jpg" alt="error message after order" height=150 width="300" />
 </div> 
 
 
@@ -116,7 +116,7 @@ order submit is not activated untill all the required information is filled by t
  Delivery fee is mentioned for home deliveries. 
 
 <div align="center">
-<img src="assets/images/testing_images/maps.JPG" alt="order selection" height=150 width="400" />
+<img src="assets/images/testing_images/maps.jpg" alt="google maps" height=150 width="400" />
 </div>
 
 6. Check out the social media of the organisation and can reach them through it
@@ -130,7 +130,7 @@ order submit is not activated untill all the required information is filled by t
      in organisation instagram page. This is to keep relation with the user for all his future needs.
 
 <div align="center">
-<img src="assets/images/testing_images/subscribe.JPG" alt="subscribe box" height=150 width="600" />
+<img src="assets/images/testing_images/subscribe.jpg" alt="subscribe box" height=150 width="600" />
 </div>
 
 8. Get the details of the prices.
@@ -145,7 +145,7 @@ to write feedback in detail, but not mandatory to fill , for the feedback submis
 Finally, user is provided with star rating, to give the satisfaction for the user to be in charge. Sweet alert confimation is given to the user after the submission
    
 <div align="center">
-<img src="assets/images/testing_images/green-feedback.JPG" alt="feedback filled" height=300 width="600" />
+<img src="assets/images/testing_images/green-feedback.jpg" alt="feedback filled" height=300 width="600" />
 </div>
 
 
@@ -226,7 +226,7 @@ Finally, user is provided with star rating, to give the satisfaction for the use
    - fixed with media queries, for smaller screens and medium screens. 
 
 <div align="center">
-<img src="assets/images/testing_images/mobile-error-feedback.JPG" alt="bug on mobile screen" height=500 width="250" />
+<img src="assets/images/testing_images/mobile-error-feedback.jpg" alt="misaligned radio buttons on feedback page" height=500 width="250" />
 </div>
 
 
@@ -240,7 +240,7 @@ Finally, user is provided with star rating, to give the satisfaction for the use
    - Fixed by adding reducing width on smaller screens for star-rating class.
 
 <div align="center">
-<img src="assets/images/testing_images/star-rating-reverse-mobile.JPG" alt="bug on mobile screen" height=500 width="250" />
+<img src="assets/images/testing_images/star-rating-reverse-mobile.jpg" alt="star rating selection reveresed on mobile screen" height=500 width="250" />
 </div>
 
 ## Bugs which were identified but not fixed due to time constraint
@@ -249,7 +249,7 @@ Finally, user is provided with star rating, to give the satisfaction for the use
     Fix need to be added in the future.
 
 <div align="center">
-<img src="assets/images/testing_images/order-form-misalign.JPG" alt="media query bug" height=300 width="200" />
+<img src="assets/images/testing_images/order-form-misalign.jpg" alt="misaligned carousel quote" height=300 width="200" />
 </div>
 
 
@@ -260,11 +260,11 @@ Finally, user is provided with star rating, to give the satisfaction for the use
    Fix needed to be added in the future.
 
 <div align="center">
-<img src="assets/images/testing_images/tablet-carousel-misalign.JPG" alt="star rating error on mobile screen" height=300 width="200" />
+<img src="assets/images/testing_images/tablet-carousel-misalign.jpg" alt="star rating error on mobile screen" height=300 width="200" />
 </div>
 
 ## Performance-report-dev-tools
 
 <div align="center">
-<img src="assets/images/testing_images/lighthouse-report.JPG" alt="dev tools performance report" height=400 width="300" />
+<img src="assets/images/testing_images/lighthouse-report.jpg" alt="dev tools performance report" height=400 width="300" />
 </div>

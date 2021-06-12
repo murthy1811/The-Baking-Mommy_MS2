@@ -1,5 +1,5 @@
 <div align="center"> 
-    <a href="https://murthy1811.github.io/The-Baking-Mommy_MS2/" target="_blank"><img src="assets/images/screenshot-home.JPG" alt="memory blocks logo"></a>
+    <a href="https://murthy1811.github.io/The-Baking-Mommy_MS2/" target="_blank"><img src="assets/images/screenshot-home.jpg" alt="screen shot of home page"></a>
     <h2>
         The Baking Mommy is a website for the cake lovers. All cake lovers should be able to order the cakes they like and give feedback
     </h2>
@@ -233,18 +233,18 @@ This project can be forked using the following process:
 
 ### Using your own Google maps API key
 
-    Since the API key is restricted to work only the url's I added in my account, google maps function will not work. 
+Since the API key is restricted to work only the url's I added in my account, google maps function will not work. 
     You should create your own account in google cloud platform and get the key for maps API. check out the site for instructions [here] (https://developers.google.com/maps/documentation/maps-static/get-api-key)
 
-    Go to the order.html, go to the end of the code. Just before the body closing, look for script tag with maps.googleapis.com, and replace the existing key with your own.
+Go to the order.html, go to the end of the code. Just before the body closing, look for script tag with maps.googleapis.com, and replace the existing key with your own.
 
 
 ### Using your own EmailJS
-   
-    Create your own account in emailJS. Make sure you have the email service for example a, free service like gmail. 
-    Create a template with the variables needed, shown in the javascript "from_name","from_phone","cake","message","message2","address","reply_to" .
-    Get your own template id, and service id. Copy it in the below javascript line in order.js
-     emailjs.send("service_xkqr1dk", "template_m0virhs")
+
+Create your own account in emailJS. Make sure you have the email service for example a, free service like gmail. 
+Create a template with the variables needed, shown in the javascript "from_name","from_phone","cake","message","message2","address","reply_to" .
+Get your own template id, and service id. Copy it in the below javascript line in order.js
+emailjs.send("service_xkqr1dk", "template_m0virhs")
 
 
 ## Credits
@@ -252,28 +252,28 @@ This project can be forked using the following process:
 - Main logo is made in www.freelogodesign.org. Used the templates available in it
 
 - Image Credits
-    Carousel images
-        pic1 Photo by Melissa Walker Horn on Unsplash 
-        pic2 Photo by David Holifield on Unsplash
-        pic3 Photo by ROMAN ODINTSOV from Pexels
-        pic4 Photo by Hayley Maxwell on Unsplash
+    - Carousel images
+        - pic1 Photo by Melissa Walker Horn on Unsplash 
+        - pic2 Photo by David Holifield on Unsplash
+        - pic3 Photo by ROMAN ODINTSOV from Pexels
+        - pic4 Photo by Hayley Maxwell on Unsplash
  
-    Assortment pictures on Main page
-        infopic1 Photo by Valeria Boltneva from Pexels  
-        infopic2 Photo by Kristina Paukshtite from Pexels  
-        infopic3 Photo by Vlada Karpovich from Pexels 
+    - Assortment pictures on Main page
+        - infopic1 Photo by Valeria Boltneva from Pexels  
+        - infopic2 Photo by Kristina Paukshtite from Pexels  
+        - infopic3 Photo by Vlada Karpovich from Pexels 
 
-    select/unselect images on order pages
+    - Select/unselect images on order pages
 
-        selectpic1 Photo by Diana Akhmetianova on Unsplash  selectpic1 
-        selectpic2 Photo by Estefanía Escalante Fernández on Unsplash 
-        selectpic3 Photo by Wedding Dreamz on Unsplash
+        - selectpic1 Photo by Diana Akhmetianova on Unsplash  selectpic1 
+        - selectpic2 Photo by Estefanía Escalante Fernández on Unsplash 
+        - selectpic3 Photo by Wedding Dreamz on Unsplash
 
-    Order form background image
+    - Order form background image
 
-        formpic1 - Photo by Deva Williamson on Unsplash 
+        - formpic1 - Photo by Deva Williamson on Unsplash 
 
-    User pics in index page are from family and friends. Used with their permission.
+    - User pics in index page are from family and friends. Used with their permission.
    
 - Fontawesome was used for the favicions throughout the page.
 
@@ -285,8 +285,8 @@ This project can be forked using the following process:
 - https://stackoverflow.com/ is very helpful in answering various questions popped up while making the code. Code adapted from the commments by various users.
   some of the users were given credit below although the code is not exactly taken.
 
-        - select/unselect javascript in order page – user Aashish 
-        - subscribe button disable/able in prices page - user Erik Palakovich
+   - select/unselect javascript in order page – user Aashish 
+   - subscribe button disable/able in prices page - user Erik Palakovich
 
 - While sweetalert is being Implemented, some code is adapated from the website https://code.tutsplus.com/tutorials/creating-pretty-popup-messages-using-sweetalert2--cms-30662
 
