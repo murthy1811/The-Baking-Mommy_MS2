@@ -26,6 +26,8 @@
     - [**Deploying to GitHub Pages**](#deploying-to-github-pages)
     - [**Forking the GitHub Repository**](#forking-the-github-repository)
     - [**Cloning the GitHub Repository**](#cloning-the-github-repository)
+    - [**Using your own Google Maps API Key**](#using-your-own-google-maps-api-key)
+    - [**Using your own emailJS**](#using-your-own-emailjs)
 7. [**Credits**](#credits)
 8. [**Acknowledgements**](#acknowledgements)
 
